@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.invest {
+    width: 100%;
+    background-color: #11100E;
+    color: $color-white;
+
+    .bitcoins {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 15px;
+
+        h1::first-letter {
+            color: $color-orange;
+        }
+
+        .cost {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p {
+                margin-bottom: auto;
+                margin-right: 15px;
+            }
+        }
+
+        button {
+            margin-left: 7px;
+            border: none;
+            color: $color-orange;
+            background-color: #11100E;
+            cursor: pointer;
+        }
+
+        .line {
+            width: 2px;
+            background-color: $color-orange;
+            height: 20px;
+            margin: 0px 10px;
+        }
+    }
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    background-color: $color-orange;
+    font-size: 15px;
+    font-weight: bold;
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $color-white;
+    }
+
+    .icon {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    ul {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: white;
+            padding: 0px 15px;
+        }
+
+        .fa-regular {
+            margin-left: 10px;
+        }
+    }
+
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: $color-orange;
+}
+
+.dropdown-menu a {
+    color: $color-white;
+    background-color: $color-orange;
+
+    &:hover {
+        background-color: $color-orange;
+        color: black;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width: 993px) {
+    .icon {
+        display: none;
+
+    }
+
+    .navbar-nav {
+        background-color: $color-orange;
+        padding: 20px;
+
+        .icon {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 661px) {
+    .icon {
+        display: none;
+
+    }
+
+    .invest {
+        display: none;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .navbar-nav {
+        background-color: $color-orange;
+        padding: 20px;
+
+        .icon {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 660px) {
+    .icon {
+        display: none;
+
+    }
+
+    .invest {
+        display: none;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .navbar-nav {
+        background-color: $color-orange;
+        padding: 20px;
+
+        .icon {
+            display: none;
+        }
+    }
+
+}
+
+#aNewWorld {
+    width: 100%;
+    background-image: url('/assets/img/home_slider_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-white;
+    text-align: center;
+    padding: 30px 0px;
+
+    .world {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 28px 0px;
+        margin: 28px 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        h1 {
+            font-size: 56px;
+            margin: 10px 0px;
+        }
+
+        p {
+            width: 45%;
+            margin: 10px 0px;
+            font-family: 'gill', sans-serif;
+            font-size: 18px;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 13px 30px;
+            margin: 20px 0px;
+            background-color: $color-orange;
+            border: none;
+            color: $color-white;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-orange;
+            }
+        }
+    }
+}
+
+#saleBitoin {
+    padding: 30px 0px;
+    background-color: #F5F9FA;
+
+    .buyBitcoin {
+        padding: 30px 0px;
+
+        img {
+            max-width: 100%;
+        }
+
+        .line {
+            margin: 20px 0px;
+            width: 50px;
+            height: 4px;
+            background-color: $color-orange;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+
+        p {
+            font-weight: 100;
+            margin: 28px 0px;
+        }
+
+        span {
+            margin: 28px 0px;
+            letter-spacing: 0.1em;
+            color: #A5A5A5;
+        }
+
+        button {
+            cursor: pointer;
+            padding: 13px 30px;
+            margin: 15px 0px;
+            background-color: $color-orange;
+            border: none;
+            color: $color-white;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-orange;
+            }
+        }
+    }
+}
+
+#about {
+    background-color: $color-orange;
+    color: $color-white;
+    padding: 28px;
+    color: $color-black;
+
+    .productline {
+        margin: 20px 0px 10px;
+        width: 50px;
+        height: 4px;
+        background-color: $color-white;
+    }
+
+    .text-about {
+        .headTxt {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-top: 28px 0px 10px;
+
+        }
+    }
+
+    #products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        width: 100%;
+
+        .box {
+            width: 250px;
+            border: 2px solid $color-white;
+            padding: 10px;
+            background-color: #fff;
+
+            p {
+                color: $color-black;
+                padding-top: 10px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+
+            h3 {
+                color: $color-orange;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            button {
+                cursor: pointer;
+                color: $color-white;
+                background-color: $color-black;
+                transition: 1s;
+                padding: 10px;
+                border-radius: 20px;
+                border: 1px solid $color-black;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    margin-top: 0.5rem;
+                    margin: 0 0.3rem;
+                }
+
+                &:hover {
+                    background-color: $color-white;
+                    color: $color-black;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .button {
+        margin-top: 10px;
+
+        #loadMore {
+            color: #fff;
+            transition: 1s;
+            background-color: $color-black;
+            padding: 10px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-black;
+            }
+        }
+    }
+}
+
+
+#formSec {
+    padding: 28px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    form {
+        margin: 28px;
+        padding: 30px 0px;
+
+        h1 {
+            color: $color-black;
+            margin-top: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 0.15em;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        width: 50%;
+
+        input:optional {
+            color: $color-orange;
+            background-color: $color-white;
+        }
+
+        input {
+            border: 2px solid $color-orange;
+        }
+
+        input::placeholder {
+            color: #111111;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 28px;
+            color: #e3dd20;
+            background-color: $color-black;
+            margin-top: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid $color-black;
+
+            &:hover {
+                background-color: transparent;
+                color: $color-black;
+
+            }
+        }
+    }
+}
+
+
+#formDisplay {
+    #display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+
+        .box {
+            background-color: rgb(208, 169, 38);
+            width: 250px;
+            padding: 25px;
+            box-shadow: 0 1px 10px rgb(0, 0, 0.2);
+
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                color: $color-white;
+            }
+
+            button {
+                cursor: pointer;
+                color: $color-white;
+                background-color: $color-orange;
+                transition: 1s;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: 1px solid $color-orange;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+
+
+                &:hover {
+                    border: none;
+                    background-color: $color-black;
+                    color: rgb(164, 165, 243);
+                }
+            }
+        }
+    }
+}
+
+#news {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-bottom: 28px;
+
+    .headtext {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 28px 0px;
+
+        .lines {
+            margin: 20px 0px 5px;
+            width: 50px;
+            height: 4px;
+            background-color: $color-orange;
+        }
+
+        span {
+            margin: 20px 0px 10px;
+            letter-spacing: 0.1em;
+            color: #A5A5A5;
+        }
+
+    }
+
+    .crypto {
+        background-color: #F5F9FA;
+        margin: 20px;
+
+        .market {
+            padding: 25px;
+        }
+
+        h1 {
+            padding: 20px 0px;
+            font-size: 23px;
+        }
+
+        p {
+            font-weight: 100;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        button {
+            margin-top: 5px;
+            cursor: pointer;
+            background-color: $color-orange;
+            color: $color-white;
+            border: none;
+            padding: 15px 28px;
+            position: absolute;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-orange;
+            }
+
+        }
+    }
+}
+
+footer {
+    padding: 28px 0px;
+    background-color: #0D1016;
+    margin-top: 28px;
+    color: $color-grey;
+
+    p::first-line {
+        color: $color-orange;
+    }
+
+    .navs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        padding-top: 30px;
+
+        li a {
+            color: $color-grey;
+        }
+    }
+}
