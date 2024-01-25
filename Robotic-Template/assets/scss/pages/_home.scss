@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:992px) and (min-width: 661px) {
+   
+    .navbar-nav {
+        width: 100%;
+        background-color: $color-purple;
+    
+    }
+}
+
+@media screen and (min-width:300px) and (max-width: 660px) {
+    .navbar-nav {
+        width: 100%;
+        background-color: $color-purple;
+    }
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    padding: 10px 0px;
+
+    .navbar-nav {
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: $color-white;
+        font-size: 13px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: $color-white;
+        font-size: 13px;
+    }
+
+    nav {
+        width: 95%;
+        text-transform: uppercase;
+
+
+
+        img {
+            margin-left: 20px;
+        }
+
+        .collapseDiv {
+
+            justify-content: flex-end;
+        }
+    }
+}
+
+#robotics {
+    width: 100%;
+    background-image: url('/assets/img/banner-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 0px;
+
+    .productionLevel {
+        margin: 28px 0px;
+        padding: 28px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        color: $color-white;
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            line-height: 1.3em;
+            margin: 28px 0px 0px 0px;
+            padding: 28px 0px 0px 0px;
+            font-size: 60px;
+        }
+
+        p {
+            margin: 10px 0px;
+        }
+
+        button {
+            margin: 15px 0px 28px 0px;
+            padding: 10px 28px;
+            cursor: pointer;
+            background-color: $color-white;
+            border: 1px solid $color-white;
+            color: $color-black;
+
+            &:hover {
+                background-color: transparent;
+                color: $color-white;
+            }
+        }
+    }
+
+    img {
+        max-width: 100%;
+        margin: 20px 0px;
+        padding: 28px 0px;
+    }
+}
+
+#extremly {
+    width: 100%;
+    padding: 28px 0px;
+    background-image: url('/assets/img/feature-bg.jpg');
+
+    .extremlyLove {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+        padding: 28px 0px;
+        color: $color-white;
+
+    }
+
+    .in {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-bottom: 28px;
+    }
+
+    .madeUnique {
+        margin-top: 28px;
+        padding: 28px;
+        cursor: pointer;
+        background-color: $color-white;
+        border-radius: 10px;
+
+        span {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        &:hover {
+            box-shadow: 0 1px 10px rgb(0, 0, 0.2);
+        }
+
+        h4 {
+            &:hover {
+                color: $color-purple;
+            }
+        }
+
+        p {
+            font-weight: 100;
+            margin: 20px 0px;
+            margin-right: 10px;
+            font-size: 17px;
+        }
+
+    }
+}
+
+
+#blogNews {
+    padding: 28px;
+
+    p {
+        font-weight: 100;
+    }
+
+    .blogHead {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    img {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    button {
+        cursor: pointer;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 5px;
+        background-color: $color-purple;
+        color: $color-white;
+        border: 1px solid $color-purple;
+        padding: 5px 15px;
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid rgb(187, 183, 183);
+            color: $color-black;
+        }
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+}
+
+footer {
+    background-image: url('/assets/img/footer-bg.jpg');
+    color: $color-white;
+    padding: 28px 0px;
+    margin-top: 20px;
+
+    .icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: flex-end;
+
+    }
+
+    .fa-brands {
+        padding: 15px;
+        background-color: $color-black;
+
+        &:hover {
+            background-color: $color-purple;
+        }
+    }
+
+    .fa-solid {
+        padding: 15px;
+        background-color: $color-black;
+
+        &:hover {
+            background-color: $color-purple;
+        }
+    }
+}
+
+#featureRoboticProduct {
+
+    background-color: #F9F9FF;
+    padding: 28px 0px;
+
+    .productHead {
+        text-align: center;
+        width: 100%;
+        text-align: center;
+        margin: 28px 0px;
+        padding: 28px 0px;
+        background-color: $color-grey;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+
+    .robottypes {
+        max-width: 100%;
+        display: flex;
+        margin: 5px 0px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: $color-white;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 0 1px 8px rgb(172, 170, 170);
+
+        &:hover {
+            box-shadow: 0 1px 10px $color-purple;
+        }
+
+        .cardtext {
+            background-color: $color-grey;
+            padding: 0px 15px;
+            width: 100%;
+        }
+
+        h4 {
+            margin: 10px 0px;
+            font-size: 19px;
+        }
+
+        p {
+            padding: 10px 0px;
+            font-size: 15px;
+            font-weight: 100;
+        }
+
+        button {
+            padding: 10px 28px;
+            background-color: $color-white;
+            font-size: 14px;
+            color: $color-black;
+            border: none;
+            margin-bottom: 20px;
+
+            &:hover {
+                box-shadow: 0 1px 10px $color-purple;
+                background-color: $color-black;
+                color: $color-grey;
+                cursor: pointer;
+            }
+        }
+
+        .image {
+
+
+            img {
+                max-width: 100%;
+                padding: 28px;
+            }
+        }
+    }
+}

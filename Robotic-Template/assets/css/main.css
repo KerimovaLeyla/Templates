@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) and (min-width: 661px) {
+  .navbar-nav {
+    width: 100%;
+    background-color: #8a90ff;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 660px) {
+  .navbar-nav {
+    width: 100%;
+    background-color: #8a90ff;
+  }
+}
+header {
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+  padding: 10px 0px;
+}
+header .navbar-nav {
+  padding: 10px;
+  margin: 15px;
+}
+header .navbar-light .navbar-nav .active > .nav-link,
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  font-size: 13px;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 13px;
+}
+header nav {
+  width: 95%;
+  text-transform: uppercase;
+}
+header nav img {
+  margin-left: 20px;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+
+#robotics {
+  width: 100%;
+  background-image: url("/assets/img/banner-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px 0px;
+}
+#robotics .productionLevel {
+  margin: 28px 0px;
+  padding: 28px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: white;
+}
+#robotics .productionLevel h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3em;
+  margin: 28px 0px 0px 0px;
+  padding: 28px 0px 0px 0px;
+  font-size: 60px;
+}
+#robotics .productionLevel p {
+  margin: 10px 0px;
+}
+#robotics .productionLevel button {
+  margin: 15px 0px 28px 0px;
+  padding: 10px 28px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+#robotics .productionLevel button:hover {
+  background-color: transparent;
+  color: white;
+}
+#robotics img {
+  max-width: 100%;
+  margin: 20px 0px;
+  padding: 28px 0px;
+}
+
+#extremly {
+  width: 100%;
+  padding: 28px 0px;
+  background-image: url("/assets/img/feature-bg.jpg");
+}
+#extremly .extremlyLove {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 28px 0px;
+  color: white;
+}
+#extremly .in {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding-bottom: 28px;
+}
+#extremly .madeUnique {
+  margin-top: 28px;
+  padding: 28px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+}
+#extremly .madeUnique span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+#extremly .madeUnique:hover {
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#extremly .madeUnique h4:hover {
+  color: #8a90ff;
+}
+#extremly .madeUnique p {
+  font-weight: 100;
+  margin: 20px 0px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+#blogNews {
+  padding: 28px;
+}
+#blogNews p {
+  font-weight: 100;
+}
+#blogNews .blogHead {
+  text-align: center;
+  margin: 20px 0px;
+}
+#blogNews img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+#blogNews button {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  background-color: #8a90ff;
+  color: white;
+  border: 1px solid #8a90ff;
+  padding: 5px 15px;
+}
+#blogNews button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(187, 183, 183);
+  color: black;
+}
+#blogNews h3 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+footer {
+  background-image: url("/assets/img/footer-bg.jpg");
+  color: white;
+  padding: 28px 0px;
+  margin-top: 20px;
+}
+footer .icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+footer .fa-brands {
+  padding: 15px;
+  background-color: black;
+}
+footer .fa-brands:hover {
+  background-color: #8a90ff;
+}
+footer .fa-solid {
+  padding: 15px;
+  background-color: black;
+}
+footer .fa-solid:hover {
+  background-color: #8a90ff;
+}
+
+#featureRoboticProduct {
+  background-color: #F9F9FF;
+  padding: 28px 0px;
+}
+#featureRoboticProduct .productHead {
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+  background-color: #F9F9FF;
+}
+#featureRoboticProduct .productHead h1 {
+  font-size: 2.5rem;
+}
+#featureRoboticProduct .robottypes {
+  max-width: 100%;
+  display: flex;
+  margin: 5px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 1px 8px rgb(172, 170, 170);
+}
+#featureRoboticProduct .robottypes:hover {
+  box-shadow: 0 1px 10px #8a90ff;
+}
+#featureRoboticProduct .robottypes .cardtext {
+  background-color: #F9F9FF;
+  padding: 0px 15px;
+  width: 100%;
+}
+#featureRoboticProduct .robottypes h4 {
+  margin: 10px 0px;
+  font-size: 19px;
+}
+#featureRoboticProduct .robottypes p {
+  padding: 10px 0px;
+  font-size: 15px;
+  font-weight: 100;
+}
+#featureRoboticProduct .robottypes button {
+  padding: 10px 28px;
+  background-color: white;
+  font-size: 14px;
+  color: black;
+  border: none;
+  margin-bottom: 20px;
+}
+#featureRoboticProduct .robottypes button:hover {
+  box-shadow: 0 1px 10px #8a90ff;
+  background-color: black;
+  color: #F9F9FF;
+  cursor: pointer;
+}
+#featureRoboticProduct .robottypes .image img {
+  max-width: 100%;
+  padding: 28px;
+}
