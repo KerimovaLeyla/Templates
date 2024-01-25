@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+
+    img {
+        margin: 0px 28px;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    .collapseDiv {
+        margin-left: 28px;
+    }
+
+    .fa-solid {
+        padding: 0px 7px;
+        font-size: 20px;
+    }
+}
+
+#cozaStore {
+    width: 100%;
+    background-image: url('/assets/img/slide-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+
+    h2 {
+        font-family: Poppins-Regular;
+        font-size: 28px;
+        line-height: 1.2857;
+        margin: 15px 0px;
+    }
+
+    h1 {
+        font-family: PlayfairDisplay-Bold;
+        font-size: 70px;
+        line-height: 1.1;
+        text-transform: uppercase;
+        margin: 15px 0px;
+        font-weight: 800;
+
+    }
+
+    button {
+        cursor: pointer;
+        background-color: $color-purple;
+        font-size: 15px;
+        color: $color-white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 28px;
+        margin: 15px 0px;
+    }
+
+}
+
+#NewTrend {
+    width: 100%;
+    margin: 28px 0px;
+    padding: 28px 0px;
+
+    .cardBox {
+        cursor: pointer;
+        border: 1px solid rgb(168, 167, 167);
+        position: relative;
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+        margin: 5px;
+        opacity: 1;
+        transition: ease-in-out 300ms;
+
+
+
+
+        &:hover {
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            opacity: 0.6;
+
+            button {
+                display: block;
+            }
+        }
+
+        button {
+            cursor: pointer;
+            display: none;
+            position: absolute;
+            border-bottom: 2px solid $color-white;
+            padding: 10px 20px;
+            border: none;
+            text-transform: uppercase;
+            color: $color-white;
+            top: 170px;
+            left: 15px;
+            background-color: $color-purple;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .cardText {
+        padding: 28px;
+        position: absolute;
+
+        h4 {
+            font-weight: 700;
+            letter-spacing: 0.1em;
+        }
+    }
+}
+
+#productOverview {
+    margin: 28px 0px;
+    padding: 28px 0px;
+
+    .collapseDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px 0px;
+        flex-wrap: wrap;
+
+    }
+
+    h1 {
+        margin-top: 20px;
+        padding-top: 28px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        li {
+            margin-right: 20px;
+        }
+
+        a {
+            color: $color-black;
+        }
+    }
+
+    button {
+        cursor: pointer;
+        padding: 5px 18px;
+        margin-right: 10px;
+        background-color: $color-white;
+        color: $color-grey;
+        border: 1px solid $color-grey;
+
+        .fa-solid {
+            margin-right: 6px;
+        }
+    }
+
+}
+
+
+#aboutInf {
+    background-color: $color-black;
+    padding: 28px;
+
+    #products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        width: 100%;
+        color: $color-whiteness;
+
+        .box {
+            width: 250px;
+
+            img {
+                padding-bottom: 10px;
+                width: 100%;
+            }
+
+            p {
+                font-size: 25px;
+            }
+
+            button {
+                cursor: pointer;
+                color: $color-whiteness;
+                background-color: $color-purple;
+                transition: 1s;
+                padding: 10px;
+                border-radius: 20px;
+                border: 1px solid $color-purple;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    margin-top: 0.5rem;
+                    margin: 0 0.3rem;
+                }
+
+                &:hover {
+                    border: none;
+                    background-color: $color-whiteness;
+                    color: $color-black;
+
+                }
+            }
+        }
+    }
+}
+
+#filtered {
+    border: 3px solid $color-black;
+
+    .btn-outline-success {
+        background-color: $color-black;
+        color: $color-whiteness;
+    }
+
+    span {
+        font-weight: bold;
+        padding-right: 5px;
+        color: $color-purple;
+    }
+
+    margin: 25px 0;
+
+    .filter {
+        input {
+            cursor: pointer;
+        }
+    }
+
+}
+
+footer {
+    display: flex;
+    padding: 28px 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: $color-black;
+    color: $color-white;
+
+    p {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+        align-items: center;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+    }
+}
