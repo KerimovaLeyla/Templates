@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  width: 100%;
+  padding: 22px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+header nav {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header .navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.1em;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #3CBDEA;
+}
+
+#creator {
+  width: 100%;
+  height: 700px;
+  color: white;
+  background-image: url("https://preview.colorlib.com/theme/onepro/img/slider/slide_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+#creator .container {
+  padding-left: 28px;
+  width: 90%;
+  margin: 28px 28px 28px 0px;
+  padding: 28px 28px 28px 0px;
+}
+#creator h3 {
+  margin-top: 28px;
+  padding-top: 28px;
+  margin-bottom: 15px;
+}
+#creator h1 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#creator p {
+  width: 500px;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#creator button {
+  cursor: pointer;
+  background-color: #3CBDEA;
+  padding: 15px 28px;
+  border: none;
+  color: white;
+}
+#creator button:hover {
+  background-color: white;
+  color: #3CBDEA;
+}
+
+#web {
+  margin: 28px 0px;
+  padding: 28px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#web .container {
+  width: 90%;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#web .container .webdovolopment {
+  text-align: center;
+}
+#web .container .webdovolopment .fa-solid {
+  padding: 28px 28px 15px 28px;
+  margin: 8px 28px 15px 28px;
+  font-size: 40px;
+}
+#web .container .webdovolopment h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 20px 0px;
+  padding: 10px;
+}
+#web .container .webdovolopment p {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 20px 0px;
+}
+#web .container .webdovolopment button {
+  cursor: pointer;
+  color: white;
+  background-color: #3CBDEA;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+#web .container .webdovolopment button:hover {
+  background-color: black;
+}
+
+#aboutCompany {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#aboutCompany .container {
+  width: 95%;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#aboutCompany .container .learnCreator {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#aboutCompany .container .learnCreator button {
+  cursor: pointer;
+  color: white;
+  background-color: #3CBDEA;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+#aboutCompany .container .learnCreator button:hover {
+  background-color: black;
+}
+
+#image {
+  margin: 28px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#image .container {
+  margin: 28px 0px;
+}
+#image .container .project {
+  margin: 28px;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#image .container .project h1 {
+  padding: 20px;
+}
+#image .container .project p {
+  font-weight: 100;
+  font-size: 14px;
+  width: 650px;
+}
+#image .container .navs ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#image .container .navs ul li a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 10px;
+}
+#image .container .item {
+  padding: 5px;
+}
+#image .container .item img {
+  width: 100%;
+}
+
+#meetOrTeam {
+  margin: 28px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#meetOrTeam .teams {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#meetOrTeam .teams h1 {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#meetOrTeam .teams .meets {
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  font-size: 14px;
+  width: 650px;
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+}
+#meetOrTeam img {
+  width: 100%;
+}
+#meetOrTeam .metTeam {
+  color: white;
+  background-color: #3CBDEA;
+  padding: 15px 28px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #191919;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px 0px;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container p {
+  margin: 25px;
+  padding: 28px;
+}
+
+.learnCreatorskill {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+.learnCreatorskill .progress {
+  margin: 28px 0px;
+  height: 35px;
+}
