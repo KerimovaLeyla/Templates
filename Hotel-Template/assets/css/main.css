@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  padding: 20px;
+}
+header .divs {
+  transform: translateX(200px);
+}
+header .navbar-light .navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+header .navbar-light .navbar-nav .active > .nav-link,
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show > .nav-link {
+  color: #C4C2C1;
+}
+header .navbar-light .navbar-nav .active > .nav-link:hover,
+header .navbar-light .navbar-nav .nav-link.active:hover,
+header .navbar-light .navbar-nav .nav-link.show:hover,
+header .navbar-light .navbar-nav .show > .nav-link:hover {
+  color: white;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: #C4C2C1;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+header nav {
+  width: 90%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+header nav .collapseDiv {
+  justify-content: center;
+}
+header nav p {
+  color: white;
+}
+
+#hotelServices {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/hotell/images/img_1.jpg");
+  filter: grayscale(40%);
+  opacity: 90%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hotelServices .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 750px;
+  text-align: center;
+}
+#hotelServices .container h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 55px;
+}
+#hotelServices .container button {
+  cursor: pointer;
+  width: 120px;
+  color: white;
+  background-color: #00917C;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+}
+
+#ourServices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F9FA;
+}
+#ourServices h3 {
+  font-size: 40px;
+  color: #00917C;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+}
+#ourServices .container {
+  padding: 15px;
+  margin: 10px;
+}
+#ourServices .container .item {
+  padding: 25px;
+  background-color: white;
+}
+#ourServices .container .item .fa-solid {
+  font-size: 40px;
+  margin-top: 20px;
+  color: #00917C;
+  padding: 10px 0px;
+}
+#ourServices .container .item h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+#ourServices .container .item p {
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+#ourServices .container .item button {
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  border: none;
+  color: gray;
+  letter-spacing: 0.04em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+}
+
+#aboutHotel {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#aboutHotel .greendiv {
+  height: 300px;
+  width: 300px;
+  color: #00917C;
+  background-color: #00917C;
+}
+#aboutHotel .container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#aboutHotel .container img {
+  width: 500px;
+  height: auto;
+  padding: 28px;
+  margin: 20px;
+}
+#aboutHotel .container .besthotel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px 0px;
+  margin: 20px 0px;
+}

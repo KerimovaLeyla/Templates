@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    padding: 20px;
+
+    .divs {
+        transform: translateX(200px);
+    }
+
+    .navbar-light .navbar-brand {
+        color: white;
+        font-size: 30px;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: #C4C2C1;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #C4C2C1;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    nav {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+        .collapseDiv {
+            justify-content: center;
+        }
+
+        p {
+            color: white;
+        }
+    }
+}
+
+#hotelServices {
+    width: 100%;
+    height: 700px;
+    background-image: url('https://preview.colorlib.com/theme/hotell/images/img_1.jpg');
+    filter: grayscale(40%);
+    // background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url('https://preview.colorlib.com/theme/hotell/images/img_1.jpg');
+    opacity: 90%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        width: 750px;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 20px;
+            color: white;
+            font-size: 55px;
+        }
+
+        button {
+            cursor: pointer;
+            width: 120px;
+            color: white;
+            background-color: #00917C;
+            border-radius: 30px;
+            border: none;
+            padding: 10px;
+        }
+    }
+
+}
+
+#ourServices {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FA;
+
+    h3 {
+        font-size: 40px;
+        color: #00917C;
+        margin-bottom: 20px;
+        padding: 20px 0px;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 10px;
+
+        .item {
+            padding: 25px;
+            background-color: white;
+
+            .fa-solid {
+                font-size: 40px;
+                margin-top: 20px;
+                color: #00917C;
+                padding: 10px 0px;
+            }
+
+            h2 {
+                font-size: 25px;
+                font-weight: bold;
+                padding: 5px 0px;
+
+            }
+
+            p {
+                padding-bottom: 10px;
+                font-weight: 300;
+            }
+
+            button {
+                cursor: pointer;
+                font-weight: bold;
+                margin-top: 10px;
+                border: none;
+                color: gray;
+                letter-spacing: 0.04em;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: white;
+            }
+        }
+    }
+}
+
+
+#aboutHotel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .greendiv{height: 300px;
+        width: 300px;
+        color: #00917C;
+       background-color:#00917C ;
+    }
+.container{width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 500px;
+        height: auto;
+        padding: 28px;
+        margin: 20px;
+
+    } 
+    .besthotel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 28px 0px;
+        margin: 20px 0px;
+        
+    }
+}
+}
