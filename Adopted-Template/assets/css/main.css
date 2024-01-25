@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav {
+  width: 85%;
+  padding: 20px 0px;
+  margin: 5px 0px;
+}
+header nav .logo {
+  letter-spacing: 0.2em;
+  font-size: 17px;
+}
+header .collapseDiv {
+  justify-content: flex-end;
+}
+
+#pearents {
+  width: 100%;
+  height: 650px;
+  background-image: url("https://preview.colorlib.com/theme/adopted/img/slider-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pearents .container {
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+}
+#pearents .container .lovingpearents {
+  margin-top: 25px;
+  padding-top: 28px;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-left: 25px;
+}
+#pearents .container .lovingpearents .years {
+  font-size: 30px;
+  margin-top: 25px;
+  padding-top: 28px;
+  font-family: "Sacramento", cursive;
+}
+#pearents .container .lovingpearents h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+#pearents .container .lovingpearents p {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+#pearents .container .lovingpearents button {
+  padding: 10px;
+  color: white;
+  background-color: #CA746D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#steps {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#steps h3 {
+  margin: 20px 0px;
+}
+#steps .accordion-item:first-of-type .accordion-button {
+  width: 550px;
+}
+#steps .container {
+  width: 80%;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#steps .container p {
+  width: 350px;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 10px 0px;
+}
+#steps .container img {
+  margin-top: 20px;
+  width: 320px;
+  padding: 20px 0px;
+  margin-left: 5px;
+}
+#steps .container #btn {
+  border: 2px solid #CA746D;
+  padding: 10px 10px;
+  background-color: white;
+  color: #CA746D;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+#steps .container .steptochild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#steps .container .steptochild .accordion-button:not(.collapsed) {
+  color: #CA746D;
+  background-color: white;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+#steps .container .steptochild h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+#waitingChildren {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+#waitingChildren .container {
+  width: 50%;
+  flex-direction: column;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#waitingChildren .container .findMoreWaitingChildren {
+  margin: 20px 0px;
+}
+#waitingChildren .container .findMoreWaitingChildren button {
+  cursor: pointer;
+  background-color: #CA746D;
+  color: white;
+  border: 2px solid #CA746D;
+  padding: 5px 10px;
+  margin: 20px 0px;
+}
+#waitingChildren .container .findMoreWaitingChildren p {
+  padding: 20px 0px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+#featuredStories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#featuredStories .container {
+  text-align: center;
+}
+#featuredStories .container .head {
+  margin: 20px 0px;
+}
+#featuredStories .container .storiesitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#featuredStories .container .storiesitem img {
+  max-width: 100%;
+  margin: 20px 0px;
+}
+
+#registerform {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F9FA;
+}
+#registerform .container {
+  width: 70%;
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#registerform .container .form-control {
+  width: 250px;
+}
+#registerform .container form {
+  padding-left: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+#registerform .container button {
+  width: 260px;
+  background-color: #CA746D;
+  margin-bottom: 10px;
+  border: none;
+}
+#registerform h3 {
+  margin: 20px 0px;
+}
+
+footer {
+  width: 100%;
+  background-color: #CA746D;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0px;
+  padding: 20px 0px;
+}
