@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  position: absolute;
+  z-index: 5;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 17px;
+  margin-right: 20px;
+  font-family: Marcellus;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+header nav {
+  width: 98%;
+  height: auto;
+  margin: auto;
+}
+header nav .icon {
+  cursor: pointer;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .icon {
+  margin: 0px 20px;
+  color: white;
+}
+
+.fa-solid {
+  margin: 0px 10px;
+}
+
+@media screen and (max-width: 991px) {
+  header .navbar {
+    background-color: #f2ede8;
+  }
+  header .navbar-light .navbar-nav .nav-link {
+    color: #BE9C79;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  header nav .icon {
+    display: none;
+  }
+  header .navbar-toggler-icon {
+    border: none;
+    color: #BE9C79;
+  }
+  header img {
+    transform: translateX(180px);
+    filter: grayscale(450px);
+  }
+}
+#ourbestservice {
+  width: 100%;
+  height: auto;
+  background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#ourbestservice .container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#ourbestservice .container .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#ourbestservice .container .item h1 {
+  font-size: 65px;
+}
+#ourbestservice .container p {
+  font-size: 18px;
+}
+#ourbestservice .container button {
+  margin: 25px 0px;
+  width: 200px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: 18px;
+  padding: 18px;
+  color: white;
+}
+#ourbestservice .container button:hover {
+  background-color: #BE9C79;
+  border: 2px solid #f2ede8;
+}
+
+#ourbeststructur {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#ourbeststructur .container {
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourbeststructur .container .ourbestscontent {
+  margin: 20px 0px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ourbeststructur .container .ourbestscontent h1 {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.08em;
+}
+#ourbeststructur .container .ourbestscontent p {
+  font-weight: 300;
+  width: 480px;
+  font-size: 20px;
+}
+#ourbeststructur .container .ourbeststructurtext {
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#ourbeststructur .container .ourbeststructurtext h5 {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.03em;
+}
+#ourbeststructur .container .ourbeststructurtext p {
+  font-weight: 300;
+}
+
+#ourbestserviceimg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourbestserviceimg .container {
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourbestserviceimg .container .ourbestscontentimg {
+  text-align: center;
+  margin: 20px 0px;
+}
+#ourbestserviceimg .container .ourbestscontentimgitem {
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#ourbestserviceimg .container .ourbestscontentimgitem p {
+  font-weight: 300;
+}
+#ourbestserviceimg .container .ourbestscontentimgitem span {
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  font-weight: 600;
+}
+#ourbestserviceimg .container .ourbestscontentimgitem img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0px;
+}
+
+#ourMyimg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#ourMyimg img {
+  width: 200px;
+}
+
+#ourbestservicecount {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ourbestservicecount .container {
+  margin: 20px 0px;
+}
+#ourbestservicecount .container .count {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 0px;
+  text-align: center;
+}
+#ourbestservicecount .container .count p {
+  font-size: 60px;
+  color: #BE9C79;
+}
+#ourbestservicecount .container .count h5 {
+  letter-spacing: 0.08em;
+}
+#ourbestservicecount .container .count span {
+  font-weight: 100;
+}
+
+#ourbestscontentservices {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ourbestscontentservices .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourbestscontentservices .container .ourbestscontentimg {
+  text-align: center;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#ourbestscontentservices .container .ourbestscontentimg h1 {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.06em;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#ourbestscontentservices .container .ourbestscontentimg p {
+  font-weight: 300;
+  width: 450px;
+}
+#ourbestscontentservices .container .contentitem img {
+  width: 250px;
+  position: relative;
+  cursor: pointer;
+}
+#ourbestscontentservices .container .contentitem button {
+  cursor: pointer;
+  position: absolute;
+  width: 160px;
+  padding: 10px 20px;
+  display: none;
+  background-color: #BE9C79;
+  color: white;
+}
+#ourbestscontentservices .container .contentitem button:hover {
+  background-color: black;
+  color: white;
+  display: block;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#ourbestscontentservices .container .contentitem p {
+  font-weight: 300;
+  font-size: 17px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+#ourbestscontentservices .container .contentitem h5 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#gallery {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#gallery .bestgallery {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  text-align: center;
+}
+#gallery .bestgallery h1 {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.06em;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#gallery .bestgallery p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 300;
+  margin: 20px 0px 20px 0px;
+  padding: 10px 0px 20px 0px;
+}
+
+.items img {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contacts p {
+  padding: 20px;
+}
+#contacts .container {
+  width: 95%;
+}
+#contacts .container button {
+  margin: 13px;
+  cursor: pointer;
+  width: 160px;
+  border: none;
+  background-color: #BE9C79;
+  color: white;
+  padding: 15px;
+}
+#contacts .container button:hover {
+  color: white;
+  background-color: black;
+  border: none;
+}
+#contacts .container p {
+  font-size: 20px;
+}
+
+#icon {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon .container {
+  text-align: center;
+  width: 90%;
+  margin: 20px 0px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+#icon .container .myIcon img {
+  transform: translateX(-25px);
+  width: 300px;
+  margin: 20px 0px;
+}
+
+#corretto {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#corretto .container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  color: white;
+}
+#corretto .container .correttoimg {
+  margin: 20px 0px;
+  padding: auto;
+}
+#corretto .container .correttoimg img {
+  margin: 20px 0px;
+}
+#corretto .container .correttoimg p {
+  font-size: 16px;
+  margin: 20px 0px;
+}
+#corretto .container .correttocontent {
+  margin: 20px 0px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.06px;
+}
+#corretto .container .correttocontent h5 {
+  margin: 20px 0px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  font-family: "Times New Roman", Times, serif;
+}
+#corretto .container .correttocontent p {
+  margin: 20px 0px;
+  width: 300px;
+}
+#corretto .container .form-group {
+  margin: 20px 0px;
+}
+#corretto .container .form-group label {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.09em;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 22px;
+}
+#corretto .container .form-group .fa-regular {
+  font-size: 27px;
+  padding: 20px;
+  margin-top: 10px;
+  position: absolute;
+  width: 60px;
+  background-color: white;
+  color: black;
+}
+#corretto .container .form-group input {
+  width: 300px;
+  margin: 10px 0px;
+  padding: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  position: relative;
+}
+#corretto .container .form-group input input::placeholder {
+  color: white;
+  background-color: white;
+}
+#corretto .container .form-group input::placeholder {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: #121212;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer .container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .icons .fa-brands {
+  margin: 20px 0px 20px 0px;
+  padding: 10px;
+  font-size: 20px;
+}
+footer .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+footer .container ul li:hover {
+  color: #BE9C79;
+  cursor: pointer;
+}
+footer .container p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
