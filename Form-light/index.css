@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#forms {
+    width: 100%;
+    height: fit-content;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Simple-wallpapers-HD-for-desktop-620x372.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+
+
+}
+
+
+.container {
+    max-width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#myForm input {
+    width: 450px;
+    border-bottom: 2px solid pink;
+    border: none;
+    border: 2px solid peru;
+    background-color: transparent;
+    text-decoration: underline;
+
+
+}
+
+#myForm input::placeholder {
+    color: rgb(207, 176, 107);
+
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px peru;
+    word-spacing: 2px;
+    white-space: nowrap;
+
+
+
+}
+
+#btn {
+    width: 140px;
+    background-color: rgb(207, 176, 107);
+    color: rgb(59, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(140px);
+    border: 2px solid peru;
+    margin-top: 20px;
+
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+}
