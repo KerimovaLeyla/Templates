@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+* img {
+  max-width: 100%;
+}
+
+header {
+  position: absolute;
+  z-index: 9999;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+header nav {
+  width: 85%;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+
+#miniShop {
+  width: 100%;
+  height: auto;
+  background-color: #DBCC8F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+}
+#miniShop img {
+  margin: 30px 0px;
+  padding: 30px 0px;
+}
+#miniShop .txt {
+  margin: 30px 0px;
+  padding: 30px 0px;
+}
+#miniShop .txt span {
+  margin-top: 30px;
+  padding: 2px 10px;
+  background-color: black;
+  color: white;
+}
+#miniShop .txt h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 60px;
+  padding: 15px 0px 28px;
+}
+#miniShop .txt p {
+  font-weight: 100;
+}
+#miniShop .txt button {
+  background-color: #C2A942;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid #C2A942;
+}
+
+#secure {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 28px;
+  padding: 28px 0px;
+}
+#secure i {
+  font-size: 55px;
+  margin-top: 28px;
+  margin-bottom: 15px;
+  color: black;
+}
+#secure h6 {
+  margin-top: 10px;
+  padding: 15px 0px;
+}
+#secure P {
+  color: gray;
+  font-weight: 300;
+}
+
+#shoes {
+  width: 100%;
+  padding: 28px 0px;
+  background-color: #F8F9FA;
+}
+#shoes h1 {
+  margin-top: 28px;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#shoes p {
+  font-weight: 400;
+  color: gray;
+}
+
+#shoesType {
+  width: 100%;
+  background-color: #DBCC8F;
+  padding: 28px 0px;
+  margin: 30px 0px;
+}
+#shoesType .times {
+  margin-top: 28px;
+}
+#shoesType .times .month {
+  margin-top: 28px;
+  color: white;
+  letter-spacing: 0.08em;
+}
+#shoesType .times h1 {
+  margin: 18px 0px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 50;
+}
+#shoesType .times p {
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+#shoesType .times .time {
+  letter-spacing: 0.08em;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 28px;
+}
+#shoesType h3 {
+  margin: 28px 0px;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 50;
+}
+#shoesType .black {
+  margin: 28px 0px;
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  text-decoration: line-through;
+}
+#shoesType .white {
+  margin: 28px 0px;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 50;
+}
+
+#customer {
+  margin-top: 28px;
+  height: auto;
+  padding: 28px;
+}
+#customer .customerText .farl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#customer .customerText .line {
+  width: 3px;
+  height: 50px;
+  background-color: #C2A942;
+}
+#customer .customerText h1 {
+  font-size: 35px;
+}
+#customer .customerText .faraway {
+  font-size: 14px;
+  margin: 25px 0px;
+  color: gray;
+}
+#customer .customerText .live {
+  font-size: 16px;
+  margin: 25px 0px;
+}
+#customer .customerText p {
+  font-weight: 200;
+}
+#customer .customerText img {
+  border-radius: 50%;
+  height: 80px;
+}
+#customer .customerText .name {
+  color: #C2A942;
+}
+#customer .customerText .work {
+  letter-spacing: 0.05em;
+  color: gray;
+}
+#customer .orta {
+  padding: 28px;
+}
+#customer i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  padding-right: 20px;
+}
+#customer .item1 {
+  background-color: #F7F7F7;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+}
+#customer .item1 span {
+  font-size: 14px;
+  color: gray;
+}
+#customer .item1 p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#customer .item2 {
+  background-color: #E5E5E5;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+}
+#customer .item2 span {
+  font-size: 14px;
+  color: gray;
+}
+#customer .item2 p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+#customer .item3 {
+  background-color: #DBCC8F;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+}
+#customer .item3 span {
+  font-size: 14px;
+  color: white;
+}
+#customer .item3 p {
+  margin-bottom: 0px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+#customer .item4 {
+  background-color: #000000;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+#customer .item4 span {
+  font-size: 14px;
+}
+#customer .item4 p {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#images {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+#images .container-fluid {
+  margin: 20px 0px;
+}
+#images .heads {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#images .heads h1 {
+  margin: 20px 0px;
+}
+#images .imagesitems {
+  display: flex;
+  flex-wrap: wrap;
+}
+#images .imagesitems img {
+  height: auto;
+  width: 200px;
+}
+
+#womanCollection {
+  height: auto;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#womanCollection .imagesitemone {
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: center;
+}
+#womanCollection .imagesitemone span {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#womanCollection .imagesitemone h4 {
+  font-weight: 700;
+  font-size: 28px;
+}
+#womanCollection .imagesitemone p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+#womanCollection .imagesitemone button {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+#womanCollection .textcontentone {
+  position: absolute;
+}
+#womanCollection .imagesitemtwo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+  color: white;
+}
+#womanCollection .imagesitemtwo span {
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#womanCollection .imagesitemtwo h4 {
+  font-weight: 700;
+  font-size: 28px;
+}
+#womanCollection .imagesitemtwo p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+#womanCollection .imagesitemtwo button {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+#womanCollection .textcontenttwo {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: absolute;
+}
+#womanCollection .imagesitemthree {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: #F8F9FA;
+}
+#womanCollection .imagesitemthree span {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#womanCollection .imagesitemthree h4 {
+  font-weight: 700;
+  font-size: 28px;
+}
+#womanCollection .imagesitemthree p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+#womanCollection .imagesitemthree button {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+#womanCollection .textcontentthree {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+#womanCollection .imagesitemfour {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#womanCollection .imagesitemfour span {
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#womanCollection .imagesitemfour h4 {
+  font-weight: 700;
+  font-size: 28px;
+}
+#womanCollection .imagesitemfour p {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+#womanCollection .imagesitemfour button {
+  background: #000000;
+  border: 1px solid #000000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+#womanCollection .textcontentfour {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 20px 0px;
+}
