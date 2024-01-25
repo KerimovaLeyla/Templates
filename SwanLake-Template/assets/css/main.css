@@ -1,0 +1,894 @@
+#pircing {
+  margin: 28px 0px;
+}
+#pircing #product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+#pircing #product h3 {
+  text-align: center;
+  font-size: 20px;
+}
+#pircing #product p {
+  text-align: center;
+  font-size: 17px;
+}
+#pircing #product .hearts {
+  justify-content: flex-end;
+}
+#pircing #product img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+* img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  background-color: transparent;
+  margin-top: 20px;
+}
+header nav {
+  width: 75%;
+}
+header nav .collapseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header button {
+  background-color: #698CF0;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+header button:hover {
+  background-color: #1C1C1C;
+}
+
+#swan {
+  width: 100%;
+  min-height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/img/img05.jpg") no-repeat center/cover fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#swan .textarea {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 28px;
+}
+#swan span {
+  color: #f8f8f8;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#swan h1 {
+  color: #fff;
+  margin: 0 0 18px;
+  font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#swan h2 {
+  font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #698CF0;
+}
+#swan button {
+  background-color: #698CF0;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+#swan button:hover {
+  background-color: #1C1C1C;
+}
+#swan .formpiece {
+  background-color: white;
+  padding: 28px;
+  margin: 28px;
+}
+#swan .formpiece input {
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+}
+#swan .formpiece span,
+#swan .formpiece button {
+  margin-bottom: 28px;
+}
+#swan .formpiece span {
+  margin-right: 8px;
+}
+#swan .formpiece form {
+  padding: 18px 28px;
+}
+#swan .formpiece button {
+  background-color: #698CF0;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+#swan .formpiece button:hover {
+  background-color: #1C1C1C;
+}
+#swan .formpiece p {
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+}
+#swan .formpiece h3 {
+  margin-top: 28px;
+  padding-top: 28px;
+}
+
+#company {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 28px 0px;
+}
+#company .heads {
+  text-align: center;
+}
+#company .heads span {
+  color: #698CF0;
+}
+#company .vision {
+  margin: 28px 0px;
+}
+#company h3 {
+  color: #698CF0;
+  font: 700 28px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+#company h5 {
+  display: block;
+  color: #333;
+  margin: 0 0 19px;
+  font: 700 18px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#company p {
+  color: gray;
+  margin: 20px 0px;
+  font-size: 14px;
+}
+#company button {
+  background-color: white;
+  color: #698CF0;
+  border: none;
+  font: 700 14px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#company button:hover {
+  color: blue;
+}
+
+#number {
+  background: url("/assets/img/img04.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+}
+#number .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px 0px;
+}
+#number h1 {
+  margin-top: 28px;
+  color: #698CF0;
+  font-size: 65px;
+}
+#number P {
+  margin-bottom: 28px;
+  color: #b4acac;
+  flex-wrap: 100;
+}
+
+#services {
+  margin: 20px 0px;
+  padding: 28px 0px;
+  margin: 28px;
+}
+#services .headtestx {
+  font-size: 20px;
+}
+#services .rectangel {
+  background: url("/assets/img/pattern6.png");
+}
+#services .rectangel .itemtwo,
+#services .rectangel .itemthree {
+  background-color: #212121;
+  color: #698CF0;
+  text-align: center;
+  padding: 28px 30px;
+}
+#services .rectangel .itemtwo .fa-solid,
+#services .rectangel .itemthree .fa-solid {
+  font-size: 40px;
+  padding-top: 20px;
+  max-width: 100%;
+}
+#services .rectangel .itemtwo h3,
+#services .rectangel .itemthree h3 {
+  font-size: 15px;
+  margin: 20px;
+}
+#services .rectangel .itemone,
+#services .rectangel .itemfour {
+  color: #698CF0;
+  text-align: center;
+  padding: 28px 30px;
+}
+#services .rectangel .itemone h3,
+#services .rectangel .itemfour h3 {
+  font-size: 15px;
+  margin: 20px;
+}
+#services .rectangel .itemone .fa-solid,
+#services .rectangel .itemfour .fa-solid {
+  max-width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+#services .rectangel .itemone .fa-regular,
+#services .rectangel .itemfour .fa-regular {
+  max-width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+#free {
+  color: white;
+  margin-top: 28px;
+  padding: 28px 0px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/img/img01.jpg") no-repeat center/cover fixed;
+}
+#free h1 {
+  color: #698CF0;
+}
+#free span {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#free .text {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#free button {
+  background-color: #698CF0;
+  color: white;
+  margin: 20px 0px;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+#free button:hover {
+  background-color: #1C1C1C;
+}
+
+footer {
+  background-color: #1C1C1C;
+  color: white;
+  padding: 25px;
+}
+
+#pircing {
+  margin: 28px 0px;
+}
+#pircing #wishlistproducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+#pircing #wishlistproducts h3 {
+  text-align: center;
+  font-size: 20px;
+}
+#pircing #wishlistproducts p {
+  text-align: center;
+  font-size: 17px;
+}
+#pircing #wishlistproducts .hearts {
+  justify-content: flex-end;
+}
+#pircing #wishlistproducts img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+* img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  background-color: transparent;
+  margin-top: 20px;
+}
+header nav {
+  width: 75%;
+}
+header nav .collapseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header button {
+  background-color: #698CF0;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+header button:hover {
+  background-color: #1C1C1C;
+}
+
+#swan {
+  width: 100%;
+  min-height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/img/img05.jpg") no-repeat center/cover fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#swan .textarea {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 28px;
+}
+#swan span {
+  color: #f8f8f8;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#swan h1 {
+  color: #fff;
+  margin: 0 0 18px;
+  font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#swan h2 {
+  font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #698CF0;
+}
+#swan button {
+  background-color: #698CF0;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+#swan button:hover {
+  background-color: #1C1C1C;
+}
+#swan .formpiece {
+  background-color: white;
+  padding: 28px;
+  margin: 28px;
+}
+#swan .formpiece input {
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+}
+#swan .formpiece span,
+#swan .formpiece button {
+  margin-bottom: 28px;
+}
+#swan .formpiece span {
+  margin-right: 8px;
+}
+#swan .formpiece form {
+  padding: 18px 28px;
+}
+#swan .formpiece button {
+  background-color: #698CF0;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+#swan .formpiece button:hover {
+  background-color: #1C1C1C;
+}
+#swan .formpiece p {
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+}
+#swan .formpiece h3 {
+  margin-top: 28px;
+  padding-top: 28px;
+}
+
+#company {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 28px 0px;
+}
+#company .heads {
+  text-align: center;
+}
+#company .heads span {
+  color: #698CF0;
+}
+#company .vision {
+  margin: 28px 0px;
+}
+#company h3 {
+  color: #698CF0;
+  font: 700 28px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+#company h5 {
+  display: block;
+  color: #333;
+  margin: 0 0 19px;
+  font: 700 18px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#company p {
+  color: gray;
+  margin: 20px 0px;
+  font-size: 14px;
+}
+#company button {
+  background-color: white;
+  color: #698CF0;
+  border: none;
+  font: 700 14px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#company button:hover {
+  color: blue;
+}
+
+#number {
+  background: url("/assets/img/img04.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+}
+#number .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px 0px;
+}
+#number h1 {
+  margin-top: 28px;
+  color: #698CF0;
+  font-size: 65px;
+}
+#number P {
+  margin-bottom: 28px;
+  color: #b4acac;
+  flex-wrap: 100;
+}
+
+#services {
+  margin: 20px 0px;
+  padding: 28px 0px;
+  margin: 28px;
+}
+#services .headtestx {
+  font-size: 20px;
+}
+#services .rectangel {
+  background: url("/assets/img/pattern6.png");
+}
+#services .rectangel .itemtwo,
+#services .rectangel .itemthree {
+  background-color: #212121;
+  color: #698CF0;
+  text-align: center;
+  padding: 28px 30px;
+}
+#services .rectangel .itemtwo .fa-solid,
+#services .rectangel .itemthree .fa-solid {
+  font-size: 40px;
+  padding-top: 20px;
+  max-width: 100%;
+}
+#services .rectangel .itemtwo h3,
+#services .rectangel .itemthree h3 {
+  font-size: 15px;
+  margin: 20px;
+}
+#services .rectangel .itemone,
+#services .rectangel .itemfour {
+  color: #698CF0;
+  text-align: center;
+  padding: 28px 30px;
+}
+#services .rectangel .itemone h3,
+#services .rectangel .itemfour h3 {
+  font-size: 15px;
+  margin: 20px;
+}
+#services .rectangel .itemone .fa-solid,
+#services .rectangel .itemfour .fa-solid {
+  max-width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+#services .rectangel .itemone .fa-regular,
+#services .rectangel .itemfour .fa-regular {
+  max-width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+#free {
+  color: white;
+  margin-top: 28px;
+  padding: 28px 0px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/img/img01.jpg") no-repeat center/cover fixed;
+}
+#free h1 {
+  color: #698CF0;
+}
+#free span {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#free .text {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#free button {
+  background-color: #698CF0;
+  color: white;
+  margin: 20px 0px;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+#free button:hover {
+  background-color: #1C1C1C;
+}
+
+footer {
+  background-color: #1C1C1C;
+  color: white;
+  padding: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+* img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  background-color: transparent;
+  margin-top: 20px;
+}
+header nav {
+  width: 75%;
+  background-color: white;
+}
+header nav .collapseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header button {
+  background-color: #698CF0;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+header button:hover {
+  background-color: #1C1C1C;
+}
+
+#swan {
+  width: 100%;
+  min-height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/img/img05.jpg") no-repeat center/cover fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#swan .textarea {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 28px;
+}
+#swan span {
+  color: #f8f8f8;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#swan h1 {
+  color: #fff;
+  margin: 0 0 18px;
+  font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#swan h2 {
+  font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #698CF0;
+}
+#swan button {
+  background-color: #698CF0;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+#swan button:hover {
+  background-color: #1C1C1C;
+}
+#swan .formpiece {
+  background-color: white;
+  padding: 28px;
+  margin: 28px;
+}
+#swan .formpiece input {
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+}
+#swan .formpiece span,
+#swan .formpiece button {
+  margin-bottom: 28px;
+}
+#swan .formpiece span {
+  margin-right: 8px;
+}
+#swan .formpiece form {
+  padding: 18px 28px;
+}
+#swan .formpiece button {
+  background-color: #698CF0;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+#swan .formpiece button:hover {
+  background-color: #1C1C1C;
+}
+#swan .formpiece p {
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+}
+#swan .formpiece h3 {
+  margin-top: 28px;
+  padding-top: 28px;
+}
+
+#company {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 28px 0px;
+}
+#company .heads {
+  text-align: center;
+}
+#company .heads span {
+  color: #698CF0;
+}
+#company .vision {
+  margin: 28px 0px;
+}
+#company h3 {
+  color: #698CF0;
+  font: 700 28px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+#company h5 {
+  display: block;
+  color: #333;
+  margin: 0 0 19px;
+  font: 700 18px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#company p {
+  color: gray;
+  margin: 20px 0px;
+  font-size: 14px;
+}
+#company button {
+  background-color: white;
+  color: #698CF0;
+  border: none;
+  font: 700 14px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#company button:hover {
+  color: blue;
+}
+
+#number {
+  background: url("/assets/img/img04.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+}
+#number .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 28px 0px;
+}
+#number h1 {
+  margin-top: 28px;
+  color: #698CF0;
+  font-size: 65px;
+}
+#number P {
+  margin-bottom: 28px;
+  color: #b4acac;
+  flex-wrap: 100;
+}
+
+#services {
+  margin: 20px 0px;
+  padding: 28px 0px;
+  margin: 28px;
+}
+#services .headtestx {
+  font-size: 20px;
+}
+#services .rectangel {
+  background: url("/assets/img/pattern6.png");
+}
+#services .rectangel .itemtwo,
+#services .rectangel .itemthree {
+  background-color: #212121;
+  color: #698CF0;
+  text-align: center;
+  padding: 28px 30px;
+}
+#services .rectangel .itemtwo .fa-solid,
+#services .rectangel .itemthree .fa-solid {
+  font-size: 40px;
+  padding-top: 20px;
+  max-width: 100%;
+}
+#services .rectangel .itemtwo h3,
+#services .rectangel .itemthree h3 {
+  font-size: 15px;
+  margin: 20px;
+}
+#services .rectangel .itemone,
+#services .rectangel .itemfour {
+  color: #698CF0;
+  text-align: center;
+  padding: 28px 30px;
+}
+#services .rectangel .itemone h3,
+#services .rectangel .itemfour h3 {
+  font-size: 15px;
+  margin: 20px;
+}
+#services .rectangel .itemone .fa-solid,
+#services .rectangel .itemfour .fa-solid {
+  max-width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+#services .rectangel .itemone .fa-regular,
+#services .rectangel .itemfour .fa-regular {
+  max-width: 100%;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+#free {
+  color: white;
+  margin-top: 28px;
+  padding: 28px 0px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("/assets/img/img01.jpg") no-repeat center/cover fixed;
+}
+#free h1 {
+  color: #698CF0;
+}
+#free span {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#free .text {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#free button {
+  background-color: #698CF0;
+  color: white;
+  margin: 20px 0px;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+#free button:hover {
+  background-color: #1C1C1C;
+}
+
+footer {
+  background-color: #1C1C1C;
+  color: white;
+  padding: 25px;
+}
+
+#pircing {
+  margin: 28px 0px;
+}
+#pircing #product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+#pircing #product h3 {
+  text-align: center;
+  font-size: 20px;
+}
+#pircing #product p {
+  text-align: center;
+  font-size: 17px;
+}
+#pircing #product .hearts {
+  justify-content: flex-end;
+}
+#pircing #product img {
+  max-width: 100%;
+}

@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 20px;
+
+    nav {
+        width: 75%;background-color:white;
+
+        .collapseDiv {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    button {
+        background-color: #698CF0;
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #1C1C1C;
+        }
+    }
+
+}
+
+#swan {
+    width: 100%;
+    min-height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/img05.jpg') no-repeat center/cover fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .textarea {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 28px;
+    }
+
+    span {
+        color: #f8f8f8;
+        margin-top: 28px;
+        padding-top: 28px;
+    }
+
+    h1 {
+        color: #fff;
+        margin: 0 0 18px;
+        font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h2 {
+        font: 700 40px/60px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #698CF0;
+    }
+
+    button {
+        background-color: #698CF0;
+        color: white;
+        margin-top: 20px;
+        border: none;
+        padding: 15px 25px;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #1C1C1C;
+        }
+    }
+
+    .formpiece {
+        background-color: white;
+        padding: 28px;
+        margin: 28px;
+
+        input {
+            background-color: #F5F5F5;
+            border: 1px solid #F5F5F5;
+        }
+
+        span,
+        button {
+            margin-bottom: 28px;
+
+        }
+
+        span {
+            margin-right: 8px;
+        }
+
+        form {
+            padding: 18px 28px;
+        }
+
+        button {
+            background-color: #698CF0;
+            color: white;
+            margin-top: 20px;
+            border: none;
+            padding: 10px 25px;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: #1C1C1C;
+            }
+        }
+
+        p {
+            margin-bottom: 18px;
+            padding-bottom: 18px;
+        }
+
+        h3 {
+            margin-top: 28px;
+            padding-top: 28px;
+        }
+    }
+}
+
+#company {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 28px 0px;
+
+    .heads {
+        text-align: center;
+
+        span {
+            color: #698CF0;
+        }
+    }
+
+    .vision {
+        margin: 28px 0px;
+    }
+
+    h3 {
+        color: #698CF0;
+        font: 700 28px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-bottom: 25px;
+    }
+
+    h5 {
+
+        display: block;
+        color: #333;
+        margin: 0 0 19px;
+        font: 700 18px/20px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    p {
+        color: gray;
+        margin: 20px 0px;
+        font-size: 14px;
+    }
+
+    button {
+        background-color: white;
+        color: #698CF0;
+        border: none;
+        font: 700 14px/17px "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+#number {
+    background: url('/assets/img/img04.jpg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 28px 0px;
+    }
+
+    h1 {
+        margin-top: 28px;
+        color: #698CF0;
+        font-size: 65px;
+    }
+
+    P {
+        margin-bottom: 28px;
+        color: #b4acac;
+        flex-wrap: 100;
+    }
+}
+
+#services {
+    margin: 20px 0px;
+    padding: 28px 0px;
+
+    .headtestx {
+        font-size: 20px;
+    }
+
+    margin: 28px;
+
+    .rectangel {
+        background: url('/assets/img/pattern6.png');
+
+        .itemtwo,
+        .itemthree {
+            background-color: #212121;
+            color: #698CF0;
+            text-align: center;
+            padding: 28px 30px;
+
+            .fa-solid {
+                font-size: 40px;
+                padding-top: 20px;
+                max-width: 100%;
+            }
+
+            h3 {
+                font-size: 15px;
+                margin: 20px;
+            }
+        }
+        .itemone,
+        .itemfour {
+
+            h3 {
+                font-size: 15px;
+                margin: 20px;
+            }
+
+            .fa-solid {
+                max-width: 100%;
+                font-size: 40px;
+                padding-top: 20px;
+            }
+
+            .fa-regular {
+                max-width: 100%;
+                font-size: 40px;
+                padding-top: 20px;
+            }
+
+            color: #698CF0;
+            text-align: center;
+            padding: 28px 30px;
+        }
+    }
+}
+
+#free {
+    color: white;
+    margin-top: 28px;
+    padding: 28px 0px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/assets/img/img01.jpg') no-repeat center/cover fixed;
+
+    h1 {
+        color: #698CF0;
+    }
+
+    span {
+        margin-top: 20px;
+        padding-top: 20px;
+
+    }
+
+    .text {
+        margin: 28px 0px;
+        padding: 28px 0px;
+    }
+
+    button {
+        background-color: #698CF0;
+        color: white;
+        margin: 20px 0px;
+        border: none;
+        padding: 10px 25px;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #1C1C1C;
+        }
+    }
+}
+
+footer {
+    background-color: #1C1C1C;
+    color: white;
+    padding: 25px;
+}
+#pircing{
+    margin: 28px 0px;
+    #product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px 0px;
+        h3{
+            text-align: center;
+            font-size: 20px;
+        }
+        p{
+            text-align: center;
+            font-size: 17px;
+
+        }
+        .hearts{
+            justify-content: flex-end;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
