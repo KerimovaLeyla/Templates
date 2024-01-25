@@ -1,0 +1,649 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 20px 0px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.05em;
+}
+header .navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #D61C22;
+}
+header .icons {
+  margin-left: 28px;
+  padding-left: 28px;
+}
+header .fa-brands {
+  color: white;
+  padding: 0px 10px;
+}
+header .fa-brands:hover {
+  color: #D61C22;
+}
+header .fa-solid {
+  color: white;
+}
+header .fa-solid:hover {
+  color: #D61C22;
+}
+header nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .collapseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#patoMain {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/pato/images/slide1-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#patoMain .container {
+  margin-top: 28px;
+  padding-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#patoMain .container button {
+  padding: 12px 28px;
+  background-color: white;
+  color: #D61C22;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+#patoMain .container button:hover {
+  background-color: #D61C22;
+  color: white;
+}
+#patoMain .container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+#patoMain .container h3 {
+  font-size: 60px;
+}
+
+#resturant {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 28px 0px;
+}
+#resturant .container {
+  margin-top: 28px;
+  padding: 10px;
+}
+#resturant .container img {
+  max-width: 100%;
+  border-radius: 50px;
+  margin-left: 28px;
+  padding-left: 26px;
+}
+#resturant .container .italyresturant {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 27px;
+  margin-top: 25px;
+  padding-top: 28px;
+}
+#resturant .container .italyresturant h3 {
+  color: #D61C22;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#resturant .container .italyresturant h1 {
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#resturant .container .italyresturant p {
+  font-weight: 100;
+  width: 600px;
+  font-size: 20px;
+}
+#resturant .container .italyresturant span {
+  margin: 20px 0px;
+}
+#resturant .container .italyresturant span:hover {
+  cursor: pointer;
+  color: #D61C22;
+}
+
+#discover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 28px;
+  background-attachment: fixed;
+}
+#discover .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 28px;
+  padding: 28px;
+  text-align: center;
+}
+#discover p {
+  margin-top: 28px;
+  color: #D61C22;
+  font-size: 30px;
+  padding-top: 28px;
+}
+#discover h1 {
+  padding-bottom: 28px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+#romanticresturant {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#romanticresturant .container {
+  margin: 28px 0px;
+  padding-bottom: 28px;
+}
+#romanticresturant .container h3 {
+  padding: 20px 0px 10px 0px;
+  font-size: 22px;
+  letter-spacing: 0.17em;
+}
+#romanticresturant .container p {
+  font-size: 17px;
+  font-weight: 100;
+}
+#romanticresturant .container img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+#romanticresturant .container span {
+  margin-bottom: 28px;
+  padding: 5px 0px 20px 0px;
+}
+#romanticresturant .container span:hover {
+  cursor: pointer;
+  color: #D61C22;
+}
+
+#aboutInf #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#aboutInf #products .box {
+  width: 250px;
+}
+#aboutInf #products .box img {
+  width: 100%;
+}
+#aboutInf #products .box button {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid red;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#aboutInf #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#aboutInf #products .box button:hover {
+  background-color: #fff;
+  color: red;
+}
+
+#filtered {
+  margin: 25px 0;
+}
+#filtered .container .filter input {
+  cursor: pointer;
+}
+
+#resturantForms {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#resturantForms .container {
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#resturantForms .container p {
+  font-size: 25px;
+  color: #D61C22;
+  text-align: center;
+}
+#resturantForms .container h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 28px;
+}
+#resturantForms .container img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+#resturantForms .container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+#resturantForms .container .form-control {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#resturantForms .container .btn-primary {
+  background-color: #111111;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 28px;
+}
+#resturantForms .container .btn-primary:hover {
+  background-color: #D61C22;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 20px 0px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.05em;
+}
+header .navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+header .navbar-light .navbar-nav .active > .nav-link:hover {
+  color: #D61C22;
+}
+header .icons {
+  margin-left: 28px;
+  padding-left: 28px;
+}
+header .fa-brands {
+  color: white;
+  padding: 0px 10px;
+}
+header .fa-brands:hover {
+  color: #D61C22;
+}
+header .fa-solid {
+  color: white;
+}
+header .fa-solid:hover {
+  color: #D61C22;
+}
+header nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .collapseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#patoMain {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/pato/images/slide1-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+#patoMain .container {
+  margin-top: 28px;
+  padding-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#patoMain .container button {
+  padding: 12px 28px;
+  background-color: white;
+  color: #D61C22;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+#patoMain .container button:hover {
+  background-color: #D61C22;
+  color: white;
+}
+#patoMain .container h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+#patoMain .container h3 {
+  font-size: 60px;
+}
+
+#resturant {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 28px 0px;
+}
+#resturant .container {
+  margin-top: 28px;
+  padding: 10px;
+}
+#resturant .container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+#resturant .container .italyresturant {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 27px;
+  margin-top: 25px;
+  padding-top: 28px;
+}
+#resturant .container .italyresturant h3 {
+  color: #D61C22;
+  font-family: cursive;
+}
+#resturant .container .italyresturant h1 {
+  font-size: 60px;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#resturant .container .italyresturant p {
+  font-weight: 100;
+  font-size: 20px;
+}
+#resturant .container .italyresturant span {
+  margin: 20px 0px;
+}
+#resturant .container .italyresturant span:hover {
+  cursor: pointer;
+  color: #D61C22;
+}
+
+#discover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 28px;
+  background-attachment: fixed;
+}
+#discover .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 28px;
+  padding: 28px;
+  text-align: center;
+}
+#discover p {
+  font-family: cursive;
+  margin-top: 28px;
+  color: #D61C22;
+  font-size: 30px;
+  padding-top: 28px;
+}
+#discover h1 {
+  padding-bottom: 28px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+#about .container .text-about .headTxt {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#about .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#about .container #products .box {
+  width: 250px;
+}
+#about .container #products .box img {
+  width: 100%;
+}
+#about .container #products .box button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #111111;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#about .container #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#about .container #products .box button:hover {
+  background-color: #fff;
+  color: #111111;
+}
+#about .container .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#about .container .button #loadMore:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#romanticresturant {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#romanticresturant .container {
+  margin: 28px 0px;
+  padding-bottom: 28px;
+}
+#romanticresturant .container h3 {
+  padding: 20px 0px 10px 0px;
+  font-size: 22px;
+  letter-spacing: 0.17em;
+}
+#romanticresturant .container p {
+  font-size: 17px;
+  font-weight: 100;
+}
+#romanticresturant .container img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0px;
+  height: auto;
+}
+#romanticresturant .container span {
+  margin-bottom: 28px;
+  padding: 5px 0px 20px 0px;
+}
+#romanticresturant .container span:hover {
+  cursor: pointer;
+  color: #D61C22;
+}
+
+#resturantForms {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#resturantForms .container {
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#resturantForms .container p {
+  font-size: 25px;
+  color: #D61C22;
+  text-align: center;
+}
+#resturantForms .container h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 28px;
+}
+#resturantForms .container img {
+  max-width: 100%;
+  border-radius: 20px;
+  height: auto;
+}
+#resturantForms .container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+#resturantForms .container .form-control {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#resturantForms .container .btn-primary {
+  background-color: #111111;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 28px;
+}
+#resturantForms .container .btn-primary:hover {
+  background-color: #D61C22;
+}
+
+@media screen and (min-width: 661px) and (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 10px;
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 661px) {
+  .navbar-nav {
+    background-color: #fff;
+    margin-top: 10px;
+  }
+}
