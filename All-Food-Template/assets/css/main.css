@@ -1,0 +1,100 @@
+#allFood {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#allFood .left {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#allFood .left .imgg h5 {
+  color: orange;
+}
+#allFood .left .imgg h5 h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+#allFood .left .imgg h5 h1 p {
+  width: 400px;
+}
+#allFood .item {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#allFood .item img {
+  width: 50px;
+  height: 50px;
+}
+#allFood .item span {
+  margin-left: 10px;
+}
+#allFood .picture img {
+  width: 350px;
+  height: 430px;
+  float: right;
+}
+
+#GoodFood {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(229, 212, 212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#GoodFood .right {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#GoodFood .right .picture1 img {
+  width: 350px;
+  height: 450px;
+  float: right;
+}
+#GoodFood .imgg1 {
+  width: 400px;
+  height: 500px;
+}
+#GoodFood .imgg1 .item1 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#GoodFood .imgg1 .imgg1 h5 {
+  color: orange;
+}
+#GoodFood .imgg1 .imgg1 h5 .imgg1 h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  width: 250px;
+}
+#GoodFood .imgg1 .imgg1 h5 .imgg1 p {
+  width: 400px;
+}
+#GoodFood .navbutton {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  border: 2px solid orange;
+  border-radius: 6px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+#GoodFood .navbutton:hover {
+  background-color: rgb(255, 140, 0);
+}
