@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.navigationbar {
+    width: 100%;
+
+    .nav-link , .navbar-brand{
+        color: $main-second-color;
+
+        &:hover {
+            color: $main-second-color;
+        }
+    }
+}
+
+#paterna {
+    width: 100%;
+    height: 750px;
+    background-color: $main-color;
+    color: $main-second-color;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+
+    h1 {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+    button {
+        width: 270px;
+        height: 37px;
+        color: $main-second-color;
+        background-color: red;
+        margin-top: 10px;
+        cursor: pointer;
+        border: none;
+
+        &:hover {
+            background-color: aqua;
+            color: $main-third-color;
+        }
+    }
+
+}
+
+.item {
+    span {
+        font-size: 22px;
+    }
+
+    p {
+        font-weight: 200;
+        padding: 20px 0px;
+    }
+}
+
+#services {
+
+    background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000');
+
+    h2 {
+        color: $main-color;
+        font-size: 28px;
+        padding: 20px 0px;
+       
+    }
+
+    span {
+        font-size: 22px;
+    }
+
+    i {
+        font-size: 60px;
+        margin: 20px;
+        text-align: center;
+        color: $main-second-color;
+    }
+
+    .card {
+        background-color: $main-color;
+        width: 330px;
+        padding: 20px;
+        height: 430px;
+        margin: 20px 0px;
+        color: $main-second-color;
+        text-align: center;
+        left: 10px;
+
+        span {
+            margin: 20px 0px;
+            font-weight: 650;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+#little {
+    width: 100%;
+    background-color: $main-color;
+    color: $main-second-color;
+
+    .ittem {
+        margin-top: 20px;
+
+        span {
+            font-size: 50px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 20px;
+        }
+    }
+}
+
+#cost {
+    width: 100%;
+    background-color: $main-color;
+    color: $main-second-color;
+
+    .ittem1 {
+        margin: 20px 20px;
+
+        span {
+            font-size: 50px;
+            font-weight: 500;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            padding: 20px;
+        }
+    }
+}
+
+#items {
+    background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000');
+
+    h2 {
+        color: $main-color;
+        font-size: 28px;
+       padding: 20px 0px;        
+    }
+
+    .container {
+        .card_head {
+            width: 330px;
+            height: 400px;
+            background-color: #dcd9d9;
+            text-align: center;
+            margin-bottom: 20px;
+
+            span {
+                display:inline-block;
+                width: 330px;
+                height: 40px;
+                font-size: 20px;
+                background-color: $main-third-color;
+                color: $main-second-color;
+
+            }
+
+            .green {
+                background-color: green;
+                color: $main-second-color;
+                font-size: 40px;
+            }
+
+            .red {
+                background-color: #d2322d;
+                ;
+                color: $main-second-color;
+                width: 330px;
+                height: 30px;
+                border: none;
+
+                &:hover {
+                    background-color: $main-third-color;
+                    color: $main-second-color;
+                }
+
+            }
+
+            .blue {
+                background-color: $main-fourth-color;
+                ;
+                color: $main-second-color;
+                width: 330px;
+                height: 30px;
+                border: none;
+
+                &:hover {
+                    background-color: $main-third-color;
+                    color: $main-second-color;
+                }
+
+            }
+
+
+            .greeen {
+                background-color: #47a447;
+                color: $main-second-color;
+                width: 330px;
+                height: 30px;
+                border: none;
+
+                &:hover {
+                    background-color: $main-third-color;
+                    color: $main-second-color;
+                }
+
+
+            }
+
+
+            p {
+                font-weight: 100;
+                font-size: 20px;
+                margin: 20px 0px;
+            }
+        }
+
+    }
+}
+
+form {
+    #lmessage {
+        width: 500px;
+        height: 70px;
+        background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000');
+        border-color:  $main-fives-color;
+        border-radius: 5px;  
+            
+    }
+
+    #fname {
+        height: 40px;
+        width: 250px;
+        font-weight: 200;
+        background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000');
+   border-color:  $main-fives-color;
+   border-radius: 5px;
+    }
+
+    #lname {
+        height: 40px;
+        width: 250px;
+        font-weight: 200;
+        background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000');
+        border-color:  $main-fives-color;
+        border-radius: 5px;
+    }
+
+    #lbutton {
+        width: 170px;
+        height: 40px;
+        font-weight: 200;
+        cursor: pointer;
+        background-color: $main-fourth-color;
+        color: $main-second-color;
+        border: none;
+        margin-bottom: 20px;
+
+        &:hover {
+            background-color: $main-third-color;
+        }
+    }
+}
+
+#contact {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000');
+
+    h2 {
+        margin: 20px 0px;
+    }
+
+    .adres ul li {
+        width: 500px;
+        height: 35px;
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 60px;
+    background-color: $main-third-color;
+
+    p {
+        color: $main-second-color;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+}
