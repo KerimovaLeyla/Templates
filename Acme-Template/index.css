@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EB5757;
+    position:fixed;
+    
+}
+
+.acme {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {cursor: pointer;
+    color:white;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-size: 17px;
+   
+}
+nav ul li:hover{
+    background-color: black;
+}
+.icon {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.iconprice {
+    position: absolute;
+    background-color: white;
+    color:black;
+    border-radius: 50%;
+    padding: 3px;
+    width: 15px;
+    height: 25px;
+    right: -10px;
+    top: -10px;
+}
+
+#serving {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.servicecontent {
+    width: 40%;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.servicecontent h5 {
+    padding: 20px;
+    font-size: 65px;
+}
+
+.servicecontent p {
+    padding: 20px;
+    font-size: 22px;
+}
+
+button {
+    width: 140px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#acmeservice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+}
+
+.acmecontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.acmecontent h1 {
+    font-size: 40px;
+}
+.servicecontent button:hover{
+background-color: white;
+color: black;
+font-weight: bold;
+}
+.supportservic {
+    width: 500px;
+    margin: 20px 0px;
+
+    padding: 20px 0px;
+}
+
+.supportcontent {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.acmeitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.item p{
+    margin: 20px 0px;
+    padding: 20px 20px; 
+    font-size: 18px;
+}
+.acmeitem img {
+    width: 350px;
+}
+
+
+#acmee {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-image: url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+#acmee .container {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    width: 90%;
+}
+
+.acmeservices {
+    width: 50%;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.acmeservices h5 {
+    padding: 20px;
+    font-size: 45px;
+    text-align: left;
+}
+
+.acmeservices p {
+    padding: 20px;
+    font-size: 22px;
+}
+
+#acmee #btn {
+    width: 180px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#productcontent {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    padding: 20px 0px;
+
+}
+#productcontent .container{width: 90%;}
+
+#productcontent h3{
+    font-size: 35px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.productitem button:hover{
+    background-color: black;
+    color: white;
+}
+#btns:hover{
+    background-color: #EB5757;
+    color: white;
+    border: 1px solid #EB5757;
+}
+
+#productcontent .container {
+    text-align: center;
+    width: 90%;
+  
+}
+.shoper{
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+.container button{background-color: #EB5757;
+    width: 110px;
+    border-radius: 10px;
+color: white;}
+#btns{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+    width: 170px;
+    margin-bottom: 20px;
+}
+.productss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.type{
+margin-top: 20px;
+padding: 10px 0px;
+}
+
+.productss img {
+    width: 350px;
+    height: 450px;
+}
+
+
+
+
+#shops{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shops .container {
+    width: 1100px;
+    height: 700px;
+    position: relative;
+}
+
+.shopimg {
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+}
+
+.shopimg img {
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+.shoptext {
+    width: 800px;
+   margin: 20px;
+   padding: 20px;
+    background-color: #222222;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.shopcontent {
+    width: 400px;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.shopcontent h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.shopcontent p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+footer {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#icon {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 30px;
+}
+
+#logoo {
+    margin-left: 20px;
+}
