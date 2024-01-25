@@ -1,0 +1,209 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 0px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+
+    nav {
+        width: 95%;
+        margin-left: 28px;
+        padding-left: 28px;
+
+        .collapseDiv {
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .fa-solid {
+        margin-right: 20px;
+        color: $color-black;
+    }
+
+    .icons {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link {
+        font-size: 18px;
+        font-weight: bold;
+        color: $color-black;
+        &:hover{
+            color: $color-red;
+        }
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 18px;
+        font-weight: bold;
+        color: $color-black;
+        &:hover{
+            color: $color-red;
+        }
+    }
+    ul{
+gap: 30px;
+    }
+}
+
+#newStyle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+     
+
+        .perfectStyle {
+            margin-top: 28px;
+            padding-top: 28px;
+
+            h1 {
+                font-weight: bold;
+                margin-top: 28px;
+                padding-top: 28px;
+                font-size: 80px;
+                color: #0B1C39;
+            }
+
+            p {
+                margin-top: 10px;
+                padding-top: 10px;
+                font-size: 20px;
+                font-weight: 300;
+            }
+
+            button {
+                cursor: pointer;
+                padding: 15px 25px;
+                background-color: $color-grey;
+                color: white;
+                font-weight: bold;
+                border: none;
+            }
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+#newArrivials {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    padding-top: 28px;
+
+    .container {
+     
+
+        .arrivals {
+            h1 {
+                margin-top: 28px;
+                color: $color-black;
+                font-size: 55px;
+            }
+        }
+
+        .bals {
+            margin-top: 28px;
+            padding-top: 28px;
+            text-align: center;
+
+            img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: $color-grey;
+                margin: 10px 0px 28px 0px;
+                padding: 10px 0px 28px 0px;
+                color: $color-red;
+                font-size: 25px;
+            }
+
+        }
+    }
+}
+
+#aboutInf{
+    #products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 35px;
+        width: 100%;
+        .box{
+            width: 250px;
+            img{
+                width: 100%;
+            }
+            button{
+                color: #fff;
+                background-color: red;
+                transition: 1s;
+                padding: 10px;
+                border-radius: 20px;
+                border: 1px solid red;
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                i{
+                    margin-top: 0.5rem;
+                    margin: 0 0.3rem;
+                }
+                &:hover{
+                    background-color: #fff;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+#filtered{
+    margin: 25px 0;
+    .container{
+        .filter{
+            input{
+                cursor: pointer;
+            }
+        }
+    }
+    .btn-outline-success{
+        background-color: #4A4A4B;
+        color: #fff;
+        border: 1px solid white;display: flex;align-items: center;
+        cursor: pointer;
+
+    }
+
+}
+footer {
+    padding: 28px 0px;
+    width: 100%;
+
+    .fa-brands {
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#formSec {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/timezone/assets/img/gallery/popular2.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    color: white;
+    margin-right: 28px;
+
+    form {
+        margin-top: 15px;
+        border: 2px solid rgb(240, 5, 5);
+        box-shadow: 0 1px 10px rgb(0, 0, 0.2);
+
+        padding: 20px;
+    }
+
+    .container {
+        padding-top: 28px;
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: center;
+
+        input {
+            padding: 20px;
+            width: 400px;
+        }
+
+        button {
+            background-color: $color-black;
+            border: none;
+            margin-top: 20px;
+        }
+    }
+}
+
+
+#formDisplay {
+    .container {
+        #display {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+
+            .box {
+                width: 250px;
+                padding: 25px;
+                box-shadow: 0 1px 10px rgb(0, 0, 0.2);
+
+                span {
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+
+                button {
+                    cursor: pointer;
+                    color: #fff;
+                    background-color: $color-red;
+                    transition: 1s;
+                    padding: 10px;
+                    border-radius: 20px;
+                    border: 1px solid $color-red;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:hover {
+                        background-color: #fff;
+                        color:$color-red;
+                    }
+                }
+            }
+        }
+    }
+}
+footer {
+    padding: 28px 0px;
+    width: 100%;
+
+    .fa-brands {
+        margin-right: 15px;
+    }
+}
