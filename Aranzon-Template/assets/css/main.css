@@ -1,0 +1,728 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+header nav {
+  width: 85%;
+}
+header nav .collapse {
+  margin-left: 20px;
+  justify-content: space-evenly;
+}
+header nav .fa-solid,
+header nav .fa-regular {
+  margin-right: 10px;
+}
+
+ul {
+  gap: 20px;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: #ff3368;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a {
+  text-transform: capitalize;
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a:hover {
+  background-color: #ff3368;
+  color: #ff3368;
+}
+
+#woodSofa {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#woodSofa img {
+  max-width: 100%;
+}
+#woodSofa h1 {
+  font-size: 66px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+}
+#woodSofa p {
+  font-weight: 300;
+  font-size: 18px;
+}
+#woodSofa button {
+  width: 180px;
+  text-transform: uppercase;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff3368;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff3368;
+}
+
+#chairCost {
+  width: 100%;
+  text-align: left;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#chairCost h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+  color: #1A1A1A;
+}
+#chairCost img {
+  max-width: 100%;
+}
+#chairCost .tables {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#chairCost .tables:hover {
+  display: block;
+}
+#chairCost .watch {
+  margin-top: 20px;
+}
+#chairCost .watch h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+#chairCost .watch p {
+  font-size: 20px;
+  font-weight: 300;
+}
+#chairCost .add {
+  color: black;
+  position: absolute;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  padding: 10px 28px 10px 0px;
+}
+
+#sofa {
+  margin: 28px 0px;
+  padding: 28px 0px;
+  width: 100%;
+}
+#sofa .hour {
+  margin-bottom: 28px;
+}
+#sofa img {
+  max-width: 100%;
+}
+#sofa h1 {
+  font-size: 56px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+  color: #1A1A1A;
+}
+#sofa span {
+  color: gray;
+  font-weight: bold;
+}
+#sofa p {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+#sofa .input-group {
+  width: 100%;
+  margin-top: 28px;
+  height: 9%;
+}
+#sofa .input-group .btn {
+  width: 140px;
+  text-transform: uppercase;
+  padding: 0px 28px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff3368;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff3368;
+  text-align: center;
+}
+
+#bestsel {
+  width: 100%;
+  text-align: left;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#bestsel h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+  color: #1A1A1A;
+}
+#bestsel img {
+  max-width: 100%;
+}
+#bestsel .table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#bestsel .watchs {
+  margin-top: 20px;
+}
+#bestsel .watchs h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+#bestsel .watchs p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#subscribe {
+  width: 100%;
+  height: 700px;
+  background: url("/assets/img/subscribe_area.png") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 28px 0px;
+}
+#subscribe p {
+  color: #ff3368;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+#subscribe h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 28px 0px;
+  line-height: 62px;
+  color: #1A1A1A;
+}
+#subscribe .input-group {
+  width: 100%;
+  margin-top: 28px;
+  height: 9%;
+}
+#subscribe .input-group button {
+  width: 180px;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff3368;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff3368;
+}
+
+#aboutInf {
+  background-color: black;
+  padding: 28px;
+}
+#aboutInf #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+  color: #fff;
+}
+#aboutInf #products .box {
+  width: 250px;
+}
+#aboutInf #products .box img {
+  padding-bottom: 10px;
+  width: 100%;
+}
+#aboutInf #products .box p {
+  font-size: 25px;
+}
+#aboutInf #products .box button {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(46, 85, 136);
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(46, 85, 136);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#aboutInf #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#aboutInf #products .box button:hover {
+  border: none;
+  background-color: #fff;
+  color: black;
+}
+
+#filtered {
+  border: 3px solid black;
+  margin: 25px 0;
+}
+#filtered .btn-outline-success {
+  background-color: #111111;
+  color: #fff;
+}
+#filtered span {
+  font-weight: bold;
+  padding-right: 5px;
+  color: #782AE1;
+}
+#filtered .filter input {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 28px;
+  padding: 28px 0px;
+}
+footer .icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+header nav {
+  width: 85%;
+}
+header nav .collapse {
+  margin-left: 20px;
+  justify-content: space-evenly;
+}
+header nav .fa-solid,
+header nav .fa-regular {
+  margin-right: 10px;
+}
+
+ul {
+  gap: 20px;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: #ff3368;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a {
+  text-transform: capitalize;
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a:hover {
+  background-color: #ff3368;
+  color: #ff3368;
+}
+
+#woodSofa {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#woodSofa img {
+  max-width: 100%;
+}
+#woodSofa h1 {
+  font-size: 66px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+}
+#woodSofa p {
+  font-weight: 300;
+  font-size: 18px;
+}
+#woodSofa button {
+  width: 180px;
+  text-transform: uppercase;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff3368;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff3368;
+}
+
+#chairCost {
+  width: 100%;
+  text-align: left;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#chairCost h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+  color: #1A1A1A;
+}
+#chairCost img {
+  max-width: 100%;
+}
+#chairCost .tables {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#chairCost .tables:hover {
+  display: block;
+}
+#chairCost .watch {
+  margin-top: 20px;
+}
+#chairCost .watch h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+#chairCost .watch p {
+  font-size: 20px;
+  font-weight: 300;
+}
+#chairCost .add {
+  color: black;
+  position: absolute;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  padding: 10px 28px 10px 0px;
+}
+
+#sofa {
+  margin: 28px 0px;
+  padding: 28px 0px;
+  width: 100%;
+}
+#sofa .hour {
+  margin-bottom: 28px;
+}
+#sofa img {
+  max-width: 100%;
+}
+#sofa h1 {
+  font-size: 56px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+  color: #1A1A1A;
+}
+#sofa span {
+  color: gray;
+  font-weight: bold;
+}
+#sofa p {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+#sofa .input-group {
+  width: 100%;
+  margin-top: 28px;
+  height: 9%;
+}
+#sofa .input-group .btn {
+  width: 140px;
+  text-transform: uppercase;
+  padding: 0px 28px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff3368;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff3368;
+  text-align: center;
+}
+
+#bestsel {
+  width: 100%;
+  text-align: left;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#bestsel h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 28px;
+  line-height: 72px;
+  color: #1A1A1A;
+}
+#bestsel img {
+  max-width: 100%;
+}
+#bestsel .table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#bestsel .watchs {
+  margin-top: 20px;
+}
+#bestsel .watchs h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+#bestsel .watchs p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#subscribe {
+  width: 100%;
+  height: 700px;
+  background: url("/assets/img/subscribe_area.png") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 28px 0px;
+}
+#subscribe p {
+  color: #ff3368;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+#subscribe h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 28px 0px;
+  line-height: 62px;
+  color: #1A1A1A;
+}
+#subscribe .input-group {
+  width: 100%;
+  margin-top: 28px;
+  height: 9%;
+}
+#subscribe .input-group button {
+  width: 180px;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff3368;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #ff3368;
+}
+
+#about {
+  background-color: #4a70a1;
+  color: white;
+  margin: 28px 0px;
+  padding: 28px;
+}
+#about .text-about .headTxt {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 28px;
+}
+#about #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#about #products .box {
+  width: 250px;
+  border: 2px solid white;
+  padding: 10px;
+  background-color: #fff;
+}
+#about #products .box p {
+  color: rgb(46, 85, 136);
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+#about #products .box h3 {
+  color: rgb(46, 85, 136);
+}
+#about #products .box img {
+  width: 100%;
+}
+#about #products .box button {
+  cursor: pointer;
+  color: white;
+  background-color: #111111;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#about #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#about #products .box button:hover {
+  background-color: white;
+  color: rgb(46, 85, 136);
+  border: none;
+}
+#about .button {
+  margin-top: 10px;
+}
+#about .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#about .button #loadMore:hover {
+  background-color: white;
+  color: black;
+}
+
+#formSec {
+  padding: 28px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg") no-repeat center/cover fixed;
+}
+#formSec form {
+  width: 50%;
+}
+#formSec form p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+#formDisplay #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#formDisplay #display .box {
+  background-color: rgb(46, 85, 90);
+  width: 250px;
+  padding: 25px;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#formDisplay #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+#formDisplay #display .box button {
+  cursor: pointer;
+  color: white;
+  background-color: brown;
+  transition: 1s;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid brown;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#formDisplay #display .box button:hover {
+  border: none;
+  background-color: black;
+  color: rgb(164, 165, 243);
+}
+
+footer {
+  margin-top: 28px;
+  padding: 28px 0px;
+}
+footer .icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
