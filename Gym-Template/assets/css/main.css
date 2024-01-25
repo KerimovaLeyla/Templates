@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) and (min-width: 661px) {
+  header .div span {
+    display: none;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 660px) {
+  header .div {
+    display: none;
+    padding-bottom: 5px;
+  }
+  header .div img {
+    max-width: 100%;
+  }
+  header .div span {
+    display: none;
+  }
+  header .div p {
+    display: none;
+  }
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: black;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: #F6214B;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #F6214B;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+header .div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  padding: 0px 20px;
+  border-bottom: 1px solid rgb(195, 193, 193);
+}
+header .div img {
+  margin-bottom: 5px;
+}
+header .div span {
+  font-weight: bold;
+}
+header nav .collapseDiv {
+  justify-content: center;
+}
+header nav ul {
+  gap: 15px;
+}
+header nav img {
+  max-width: 100%;
+}
+
+#fitness {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/header-bg (1).jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+#fitness h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 28px 0px;
+  margin: 25px 0;
+}
+#offer #filtered {
+  width: 100%;
+  flex-wrap: wrap;
+}
+#offer #filtered .btn-outline-success {
+  background-color: black;
+  color: white;
+}
+#offer #filtered span {
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 5px;
+  color: #F6214B;
+  font-size: 22px;
+}
+#offer #filtered .filter input {
+  cursor: pointer;
+}
+
+#aboutInf {
+  padding: 28px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+#aboutInf #products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+#aboutInf #products .box {
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  box-shadow: 0 1px 10px rgb(235, 233, 233);
+  border-radius: 20px;
+}
+#aboutInf #products .box:hover {
+  box-shadow: 0 1px 10px rgb(244, 11, 11);
+}
+#aboutInf #products .box img {
+  max-width: 100%;
+}
+#aboutInf #products .box h3 {
+  font-size: 20px;
+}
+#aboutInf #products .box button {
+  cursor: pointer;
+  color: white;
+  background-color: #F6214B;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #F6214B;
+  gap: 10px;
+}
+#aboutInf #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#aboutInf #products .box button:hover {
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+#gymCourse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 28px 0px;
+}
+#gymCourse .card {
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+#gymCourse .cardImg {
+  position: relative;
+  width: 100%;
+}
+#gymCourse .cardImg img {
+  width: 100%;
+}
+#gymCourse .cardImg p {
+  position: absolute;
+  padding: 15px;
+  margin: 20px;
+  background-color: #F6214B;
+  color: white;
+  max-width: 150px;
+  bottom: 0px;
+}
+#gymCourse .textCard {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+#gymCourse .textCard p {
+  color: #F6214B;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#gymCourse .textCard span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#huge {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/callto-bg (1).jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 28px;
+  text-align: center;
+  margin: 28px 0px;
+}
+#huge .headtext {
+  padding: 28px;
+  margin: 28px 0px;
+}
+#huge .headtext h1 {
+  font-size: 45px;
+  margin: 15px 0px;
+}
+#huge .headtext p {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+#huge .headtext button {
+  background-color: #F6214B;
+  color: white;
+  margin: 15px 0px;
+  padding: 10px 28px;
+  border-radius: 20px;
+  border: 1px solid #F6214B;
+  cursor: pointer;
+}
+#huge .headtext button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+footer {
+  color: white;
+  padding: 28px 0px;
+  margin-top: 20px;
+}
+footer p {
+  color: black;
+}
+footer .icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-end;
+  gap: 20px;
+}
+footer .fa-brands {
+  padding: 15px;
+  background-color: black;
+}
+footer .fa-brands:hover {
+  background-color: #F6214B;
+}
+footer .fa-solid {
+  padding: 15px;
+  background-color: black;
+}
+footer .fa-solid:hover {
+  background-color: #F6214B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) and (min-width: 661px) {
+  header .div span {
+    display: none;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 660px) {
+  header .div {
+    display: none;
+    padding-bottom: 5px;
+  }
+  header .div img {
+    max-width: 100%;
+  }
+  header .div span {
+    display: none;
+  }
+  header .div p {
+    display: none;
+  }
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: black;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: #F6214B;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #F6214B;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+header .div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  padding: 0px 20px;
+  border-bottom: 1px solid rgb(195, 193, 193);
+}
+header .div img {
+  margin-bottom: 5px;
+}
+header .div span {
+  font-weight: bold;
+}
+header nav .collapseDiv {
+  justify-content: center;
+}
+header nav ul {
+  gap: 15px;
+}
+header nav img {
+  max-width: 100%;
+}
+
+#fitness {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/header-bg (1).jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+#fitness h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 0px;
+}
+#offer .about {
+  background-color: #F4F1E9;
+}
+#offer .about #products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 28px;
+}
+#offer .about #products .box {
+  cursor: pointer;
+  width: 350px;
+  height: auto;
+  padding: 15px;
+  box-shadow: 0 1px 10px rgb(244, 11, 11);
+  border-radius: 20px;
+}
+#offer .about #products .box:hover {
+  box-shadow: 0 1px 10px rgb(10, 10, 10);
+  border: 2px solid rgb(92, 90, 90);
+}
+#offer .about #products .box p {
+  color: black;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#offer .about #products .box h3 {
+  color: #F6214B;
+  font-size: 20px;
+}
+#offer .about #products .box img {
+  max-width: 100%;
+}
+#offer .about #products .box button {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  gap: 10px;
+}
+#offer .about #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#offer .about #products .box button:hover {
+  background-color: #F6214B;
+  color: black;
+  border: none;
+}
+#offer .about .button {
+  margin-top: 15px;
+}
+#offer .about .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#offer .about .button #loadMore:hover {
+  background-color: white;
+  color: black;
+}
+
+#formSec {
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url("/assets/img/homepage-hero-afp-december-treadmill-1x.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#formSec form {
+  margin: 28px;
+  padding: 30px 0px;
+  width: 50%;
+}
+#formSec form h1 {
+  color: black;
+  margin-top: 20px;
+  font-family: cursive;
+  letter-spacing: 0.15em;
+}
+#formSec form label {
+  font-weight: bold;
+  font-size: 18px;
+}
+#formSec form input:optional {
+  color: #FFA800;
+  background-color: white;
+}
+#formSec form input {
+  border: 2px solid red;
+}
+#formSec form input::placeholder {
+  color: #111111;
+}
+#formSec form p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+#formSec form button {
+  padding: 10px 28px;
+  color: red;
+  background-color: black;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+#formSec form button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+#formDisplay #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#formDisplay #display .box {
+  background-color: rgb(185, 183, 181);
+  width: 350px;
+  padding: 28px;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#formDisplay #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+#formDisplay #display .box button {
+  cursor: pointer;
+  color: white;
+  background-color: #F6214B;
+  transition: 1s;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #F6214B;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#formDisplay #display .box button:hover {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+#gymCourse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 28px 0px;
+}
+#gymCourse .card {
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+#gymCourse .cardImg {
+  position: relative;
+  width: 100%;
+}
+#gymCourse .cardImg img {
+  width: 100%;
+}
+#gymCourse .cardImg p {
+  position: absolute;
+  padding: 15px;
+  margin: 20px;
+  background-color: #F6214B;
+  color: white;
+  max-width: 150px;
+  bottom: 0px;
+}
+#gymCourse .textCard {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+#gymCourse .textCard p {
+  color: #F6214B;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#gymCourse .textCard span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#huge {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/img/callto-bg (1).jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 28px;
+  text-align: center;
+  margin: 28px 0px;
+}
+#huge .headtext {
+  padding: 28px;
+  margin: 28px 0px;
+}
+#huge .headtext h1 {
+  font-size: 45px;
+  margin: 15px 0px;
+}
+#huge .headtext p {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+#huge .headtext button {
+  background-color: #F6214B;
+  color: white;
+  margin: 15px 0px;
+  padding: 10px 28px;
+  border-radius: 20px;
+  border: 1px solid #F6214B;
+  cursor: pointer;
+}
+#huge .headtext button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+footer {
+  color: white;
+  padding: 28px 0px;
+  margin-top: 20px;
+}
+footer p {
+  color: black;
+}
+footer .icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-end;
+  gap: 20px;
+}
+footer .fa-brands {
+  padding: 15px;
+  background-color: black;
+}
+footer .fa-brands:hover {
+  background-color: #F6214B;
+}
+footer .fa-solid {
+  padding: 15px;
+  background-color: black;
+}
+footer .fa-solid:hover {
+  background-color: #F6214B;
+}
