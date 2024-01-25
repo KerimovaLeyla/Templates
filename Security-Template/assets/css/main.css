@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+  padding: 20px;
+}
+header nav {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+#exhibition {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/security/img/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#exhibition .container .exbitionera {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#exhibition .container .exbitionera h4 {
+  margin-top: 28px;
+  padding-top: 28px;
+  letter: spacing 1em;
+  font-size: 14px;
+}
+#exhibition .container .exbitionera h1 {
+  font-size: 55px;
+  margin-top: 10px;
+}
+#exhibition .container .exbitionera button {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  padding: 10px 25px 10px 25px;
+  cursor: pointer;
+  color: white;
+  background-color: #FAB700;
+  border: 1px solid #FAB700;
+}
+#exhibition .container .exbitionera button:hover {
+  background-color: transparent;
+  border: 1px solid #FAB700;
+  color: #FAB700;
+}
+
+#ourBestServices {
+  width: 100%;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#ourBestServices .ourOfferedServices {
+  width: 100%;
+  text-align: center;
+  margin-top: 28px;
+  padding-top: 28px;
+  flex-direction: column;
+}
+#ourBestServices .ourOfferedServices p {
+  font-weight: 100;
+}
+#ourBestServices .basicReapirs {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#ourBestServices .basicReapirs img {
+  max-width: 100%;
+}
+#ourBestServices .basicReapirs h1 {
+  margin: 15px 0px;
+  font-size: 25px;
+}
+#ourBestServices .basicReapirs p {
+  font-weight: 100;
+}
+
+#extremly {
+  width: 100%;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#extremly .extremlyLove {
+  width: 100%;
+  text-align: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#extremly .madeUnique {
+  margin-top: 28px;
+  padding: 28px;
+  cursor: pointer;
+}
+#extremly .madeUnique span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+#extremly .madeUnique:hover {
+  background-color: #FAB700;
+}
+#extremly .madeUnique p {
+  font-weight: 100;
+  margin: 20px 0px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+#formSec {
+  display: flex;
+  justify-content: center;
+}
+#formSec form {
+  width: 50%;
+}
+#formSec form p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+#formDisplay #display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#formDisplay #display .box {
+  width: 250px;
+  padding: 25px;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#formDisplay #display .box span {
+  font-weight: 500;
+  font-size: 18px;
+}
+#formDisplay #display .box button {
+  color: black;
+  background-color: #FAB700;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #FAB700;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#formDisplay #display .box button:hover {
+  background-color: black;
+  color: #FAB700;
+}
+
+footer {
+  padding: 28px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+  padding: 20px;
+}
+header nav {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+#exhibition {
+  width: 100%;
+  height: 700px;
+  background-image: url("https://preview.colorlib.com/theme/security/img/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#exhibition .exbitionera {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#exhibition .exbitionera h5 {
+  margin-top: 28px;
+  padding-top: 28px;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+#exhibition .exbitionera h1 {
+  font-size: 55px;
+  margin-top: 10px;
+}
+#exhibition .exbitionera button {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  padding: 8px 28px 8px 28px;
+  cursor: pointer;
+  color: white;
+  background-color: #FAB700;
+  border: 1px solid #FAB700;
+}
+#exhibition .exbitionera button:hover {
+  background-color: transparent;
+  border: 1px solid #FAB700;
+  color: #FAB700;
+}
+
+#ourBestServices {
+  width: 100%;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#ourBestServices .ourOfferedServices {
+  width: 100%;
+  text-align: center;
+  margin-top: 28px;
+  padding-top: 28px;
+  flex-direction: column;
+}
+#ourBestServices .ourOfferedServices p {
+  font-weight: 100;
+}
+#ourBestServices .basicReapirs {
+  cursor: pointer;
+  margin: 28px 0px;
+  padding: 28px;
+}
+#ourBestServices .basicReapirs:hover {
+  background-color: #FAB700;
+}
+#ourBestServices .basicReapirs img {
+  max-width: 100%;
+}
+#ourBestServices .basicReapirs h1 {
+  margin: 15px 0px;
+  font-size: 25px;
+}
+#ourBestServices .basicReapirs p {
+  font-weight: 100;
+}
+
+#extremly {
+  width: 100%;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#extremly .extremlyLove {
+  width: 100%;
+  text-align: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#extremly #about .text-about .headTxt {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#extremly #about #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#extremly #about #products .box {
+  width: 250px;
+}
+#extremly #about #products .box img {
+  width: 100%;
+}
+#extremly #about #products .box button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #111111;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#extremly #about #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#extremly #about #products .box button:hover {
+  background-color: #fff;
+  color: #111111;
+}
+#extremly #about .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#extremly #about .button #loadMore:hover {
+  background-color: #fff;
+  color: black;
+}
+#extremly .madeUnique {
+  margin-top: 28px;
+  padding: 28px;
+  cursor: pointer;
+}
+#extremly .madeUnique span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+#extremly .madeUnique:hover {
+  background-color: #FAB700;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#extremly .madeUnique p {
+  font-weight: 100;
+  margin: 20px 0px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+#aboutInf {
+  background-color: #FAB700;
+  padding: 28px;
+}
+#aboutInf #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#aboutInf #products .box {
+  width: 250px;
+}
+#aboutInf #products .box img {
+  padding-bottom: 10px;
+  width: 100%;
+}
+#aboutInf #products .box p {
+  font-size: 30px;
+}
+#aboutInf #products .box button {
+  cursor: pointer;
+  color: #fff;
+  background-color: black;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #FAB700;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#aboutInf #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#aboutInf #products .box button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#filtered {
+  margin: 25px 0;
+}
+#filtered .btn-outline-success {
+  background-color: #111111;
+  color: #fff;
+}
+#filtered .filter input {
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid rgb(121, 118, 118);
+  padding: 28px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+  padding: 20px;
+}
+header nav {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+#exhibition {
+  width: 100%;
+  height: 700px;
+  background-image: url("/assets/img/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#exhibition .exbitionera {
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#exhibition .exbitionera h5 {
+  margin-top: 28px;
+  padding-top: 28px;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+#exhibition .exbitionera h1 {
+  font-size: 55px;
+  margin-top: 10px;
+}
+#exhibition .exbitionera button {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  padding: 8px 28px 8px 28px;
+  cursor: pointer;
+  color: white;
+  background-color: #FAB700;
+  border: 1px solid #FAB700;
+}
+#exhibition .exbitionera button:hover {
+  background-color: transparent;
+  border: 1px solid #FAB700;
+  color: #FAB700;
+}
+
+#ourBestServices {
+  width: 100%;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+#ourBestServices .ourOfferedServices {
+  width: 100%;
+  text-align: center;
+  margin-top: 28px;
+  padding-top: 28px;
+  flex-direction: column;
+}
+#ourBestServices .ourOfferedServices p {
+  font-weight: 100;
+}
+#ourBestServices .basicReapirs {
+  cursor: pointer;
+  margin: 28px 0px;
+  padding: 28px;
+}
+#ourBestServices .basicReapirs:hover {
+  background-color: #FAB700;
+}
+#ourBestServices .basicReapirs img {
+  max-width: 100%;
+}
+#ourBestServices .basicReapirs h1 {
+  margin: 15px 0px;
+  font-size: 25px;
+}
+#ourBestServices .basicReapirs p {
+  font-weight: 100;
+}
+
+#extremly {
+  width: 100%;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#extremly .extremlyLove {
+  width: 100%;
+  text-align: center;
+  margin: 28px 0px;
+  padding: 28px 0px;
+}
+#extremly .madeUnique {
+  margin-top: 28px;
+  padding: 28px;
+  cursor: pointer;
+}
+#extremly .madeUnique span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+#extremly .madeUnique:hover {
+  background-color: #FAB700;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+#extremly .madeUnique p {
+  font-weight: 100;
+  margin: 20px 0px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+#about {
+  background-color: #FAB700;
+  padding: 28px;
+}
+#about .text-about .headTxt {
+  font-size: 2rem;
+  font-weight: 500;
+}
+#about #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  width: 100%;
+}
+#about #products .box {
+  width: 250px;
+}
+#about #products .box img {
+  width: 100%;
+}
+#about #products .box button {
+  cursor: pointer;
+  color: #FAB700;
+  background-color: #111111;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#about #products .box button i {
+  margin-top: 0.5rem;
+  margin: 0 0.3rem;
+}
+#about #products .box button:hover {
+  background-color: #FAB700;
+  color: #111111;
+}
+#about .button #loadMore {
+  color: #fff;
+  transition: 1s;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#about .button #loadMore:hover {
+  background-color: #FAB700;
+  color: black;
+}
+
+footer {
+  border-top: 1px solid rgb(121, 118, 118);
+  padding: 28px;
+  margin-top: 28px;
+  text-align: center;
+}
