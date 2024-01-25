@@ -1,0 +1,381 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+
+    #menubtn {
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: black;
+        font-size: 1.5rem;
+        display: none;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .container {
+        display: flex;
+        padding: 20px;
+
+        p {
+            border: 1px solid #fff;
+            max-width: 5rem;
+            padding: 10px 20px;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: end;
+
+            #menu {
+                display: none;
+                flex-direction: column;
+                background-color: black;
+                color: #fff !important;
+                position: absolute;
+                left: 0;
+                top: 0;
+                padding: 20px;
+                text-align: center;
+                width: 50%;
+                height: 100vh;
+                animation: anime 0.5s ease;
+            }
+
+            @keyframes anime {
+                from {
+                    transform: translateX(-100%);
+                }
+
+                to {
+                    transform: translateX(0);
+                }
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 20px;
+
+                li {
+                    .active {
+                        color: gray;
+                    }
+
+                    a {
+                        color: #fff;
+                        opacity: .7;
+                        transition: 1s;
+                        text-decoration: none;
+
+                        &:hover {
+                            opacity: 1;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#tasty {
+
+    background-image: url("../../../assets/image/bg_1\ \(1\).jpg");
+    width: 100%;
+
+    .container {
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content {
+
+            color: #fff;
+            text-align: center;
+
+            p {
+                font-size: 4.5rem;
+            }
+
+            button {
+                background: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+                padding: 10px 20px;
+                transition: 1s;
+
+                &:hover {
+                    background-color: #fff;
+                    color: black;
+                }
+            }
+        }
+
+    }
+}
+
+#chef {
+    .container {
+        .row {
+            .col-xl-6 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .about {
+                    opacity: 0.7;
+                    letter-spacing: 2px;
+                }
+
+                .our {
+                    font-size: 2rem;
+                }
+
+                .text {
+                    p {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#pro {
+    .container {
+        h2 {
+            text-align: center;
+        }
+
+        #product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+
+            .box {
+                width: 250px;
+                position: relative;
+                padding: 20px;
+                border-radius: 20px;
+                box-shadow: 0px 0px 10px gray;
+                border: 1px solid #ded9d9;
+
+                #wish {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    display: flex;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    margin: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    border: 1px solid rgb(225, 225, 225);
+                    cursor: pointer;
+                    background-color: #fff;
+                    color: rgb(141, 36, 36);
+                    transition: 1s;
+
+                    &:hover {
+                        color: rgb(244, 86, 86);
+                        border: 1px solid rgb(248, 96, 96);
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: 230px;
+                    border-radius: 7px;
+                }
+
+                button {
+                    color: #fff;
+                    padding: 8px;
+                    border: 1px solid green;
+                    background-color: green;
+                    border-radius: 10px;
+                    transition: 1s;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+
+    #loadbtn {
+        background-color: black;
+        color: #fff;
+        border: 1px solid black;
+        transition: 1s;
+        border-radius: 10px;
+        padding: 8px;
+        margin: 1rem;
+
+        &:hover {
+            background-color: #fff;
+            color: black;
+        }
+    }
+}
+
+#stasfied {
+
+    h2 {
+        text-align: center;
+    }
+
+
+    .container {
+
+        .row {
+            .col-xl-3 {
+                margin: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0 2px 20px 0.2px gray;
+
+                img {
+                    width: 5rem;
+                    height: 5rem;
+                    border-radius: 50%;
+                }
+
+                .logo {
+                    flex-wrap: wrap;
+
+                    i {
+                        margin: 1rem 0;
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#recent {
+    .container {
+        .row {
+            .col-xl-4 {
+                margin: 1rem 0;
+
+                img {
+                    width: 100%;
+                    height: 350px;
+                }
+
+                .admin {
+                    margin: 1rem 0;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #27272b;
+    color: gray;
+    padding: 25px;
+    margin-top: 3rem;
+
+    .container {
+        .icon {
+            i {
+                width: 2.3rem;
+                height: 2.3rem;
+                color: #fff;
+                background-color: #27272b;
+                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                margin: 0 0.2rem;
+                cursor: pointer;
+                transition: 1s;
+
+                &:hover {
+                    color: #27272b;
+                    background-color: #fff;
+                }
+            }
+        }
+
+        .row {
+            .col-xl-3 {
+                .head {
+                    color: #fff;
+                    font-size: 1.5rem;
+                }
+
+                .date {
+                    margin: 0 10px;
+                    color: #fff;
+                }
+
+                button {
+                    width: 70%;
+                    padding: 10px;
+                    text-align: left;
+                    color: #fff;
+                    background: transparent;
+                    border: 1px solid #fff;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+@media(max-width:600px) {
+    header #menubtn {
+        display: block;
+    }
+
+    header .container nav #menu {
+        display: flex;
+    }
+
+    header .container nav ul {
+        display: none;
+    }
+
+    #tasty .container .content p {
+        font-size: 2rem;
+    }
+
+    #pro .container #product .box {
+        margin: 1rem 0;
+    }
+
+    #pro .container #product .box img {
+        height: auto;
+    }
+
+    #recent .container .row .col-xl-4 img {
+        height: auto;
+    }
+}
