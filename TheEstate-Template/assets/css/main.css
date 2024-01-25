@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) and (min-width: 661px) {
+  .nav-link p {
+    display: none;
+  }
+  .navbar-nav {
+    background-color: #FD784F;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 660px) {
+  .nav-link p {
+    display: none;
+  }
+  .logo {
+    width: 50%;
+  }
+  .navbar-nav {
+    background-color: #FD784F;
+    padding: 20px;
+  }
+}
+header {
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: transparent;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(200, 192, 192);
+}
+header .navbar-light .navbar-nav .active > .nav-link,
+header .navbar-light .navbar-nav .nav-link.active,
+header .navbar-light .navbar-nav .nav-link.show,
+header .navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+}
+header .navbar-light .navbar-nav .active > .nav-link:hover,
+header .navbar-light .navbar-nav .nav-link.active:hover,
+header .navbar-light .navbar-nav .nav-link.show:hover,
+header .navbar-light .navbar-nav .show > .nav-link:hover {
+  color: #FD784F;
+}
+header .logo {
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+header .collapseDiv {
+  justify-content: center;
+}
+header nav {
+  width: 95%;
+  margin: auto;
+}
+header nav ul {
+  gap: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+header .div p {
+  background-color: #FD784F;
+  color: white;
+  padding: 14px 20px;
+  font-size: 18px;
+}
+
+#findhome {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  background-image: url("/assets/img/home_slider_bcg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+#findhome h1 {
+  margin: 25px;
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 65px;
+}
+
+#client {
+  width: 100%;
+  background-image: url("/assets/img/testimonials_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px;
+  color: white;
+  text-align: center;
+  padding: 28px;
+  background-attachment: fixed;
+}
+#client img {
+  margin-top: 26px;
+  padding: 28px 0px;
+  border-radius: 50%;
+}
+#client .lorem {
+  font-size: 20px;
+  margin: 15px 0px;
+  padding: 28px;
+  margin: 20px 0px;
+}
+#client .text {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#client .line {
+  height: 30px;
+  width: 4px;
+  background-color: #FD784F;
+}
+#client h2 {
+  font-weight: bold;
+  padding-top: 28px;
+}
+#client .bestoffer {
+  color: #b0b1b3;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#client .name {
+  color: #FD784F;
+  text-transform: capitalize;
+}
+
+#Properties {
+  width: 100%;
+  height: auto;
+  padding: 28px;
+}
+#Properties .headTexts {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Properties .headTexts .headline {
+  width: 3px;
+  height: 25px;
+  background-color: #FD784F;
+}
+#Properties .headTexts .headline h2 {
+  padding-top: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+#Properties .headTexts .headline p {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b0b1b3;
+  margin-top: 20px;
+}
+#Properties .cardBox {
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+#Properties .cardBox .feature {
+  background-color: #FD784F;
+  top: 30px;
+  padding: 3px;
+  position: absolute;
+  color: #FFFFFF;
+}
+#Properties .cardBox .feature p {
+  margin: 8px;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+#Properties .cardBox .head {
+  width: 100%;
+}
+#Properties .cardBox .PropertiesBoxItem {
+  background-color: #EDEFF4;
+  padding: 20px;
+  width: 100%;
+}
+#Properties .cardBox .PropertiesBoxItem h4 {
+  margin-top: 15px;
+  width: 90%;
+  font-size: 22px;
+  font-weight: 600;
+  color: #0e1d41;
+}
+#Properties .cardBox .PropertiesBoxItem .roomText {
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383;
+}
+#Properties .cardBox .PropertiesBoxItem .roomImage {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#Properties .cardBox .PropertiesBoxItem .roomImage .roomImageDetails {
+  margin: 9px;
+}
+#Properties .cardBox .PropertiesBoxItem .roomImage .roomImageDetails p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #838383;
+}
+#Properties .cardBox .PropertiesBoxItem .roomImage .roomImageDetails span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #2e2e2e;
+  margin-left: 5px;
+}
+#Properties .cardBox .PropertiesBoxItem .PropertiesDiv {
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#Properties .cardBox .PropertiesBoxItem .PropertiesDiv button {
+  margin: 6px;
+  padding: 4px 10px;
+  background-color: #FD784F;
+  border: none;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 500;
+  cursor: pointer;
+}
+#Properties .cardBox .sale {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  background-color: #0e1d41;
+}
+#Properties .cardBox .sale img {
+  width: 13%;
+}
+#Properties .cardBox .sale .saleText {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#Properties .cardBox .sale .saleText span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+#Properties .cardBox .sale .saleText p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-top: -3px;
+}
+
+#CitiesClients {
+  width: 100%;
+  padding: 28px;
+}
+#CitiesClients .clientservice {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+}
+#CitiesClients .clientservice .cityhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#CitiesClients .clientservice .cityhead .cityline {
+  width: 3px;
+  height: 25px;
+  background-color: #FD784F;
+  cursor: pointer;
+}
+#CitiesClients .clientservice .cityhead h4 {
+  padding-top: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+#CitiesClients .clientservice .cityhead p {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b0b1b3;
+  margin-top: -4px;
+}
+#CitiesClients .clientservice .cards {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+#CitiesClients .clientservice .cards:hover img {
+  cursor: pointer;
+  transition: 1s;
+  opacity: 0.7;
+}
+#CitiesClients .clientservice .cards:hover a {
+  font-size: 23px;
+  display: block;
+}
+#CitiesClients .clientservice .cards img {
+  width: 100%;
+  position: relative;
+}
+#CitiesClients .clientservice .cards .area {
+  bottom: 30px;
+  position: absolute;
+  padding: 10px;
+  background-color: #FD784F;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+#CitiesClients .clientservice .cards a {
+  display: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  position: absolute;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 28px 0px;
+}
+footer .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
