@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#navigation {
+    width: 95%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#picture {
+    width: 230px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture img {
+    width: 200px;
+    cursor: pointer;
+}
+
+#nav-items {
+    width: 900px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-all {
+    width: 680px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages-list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+#nav-all ul a {
+
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-bottom: 55px;
+    color: black;
+}
+
+#add {
+    width: 180px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#add .search {
+    padding-bottom: 47px;
+    font-size: 22px;
+}
+
+#prof .cart-text {
+    padding-bottom: 55px;
+
+}
+#add .cart i {
+    font-size: 16px;
+}
+
+#add.cart-text {
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+
+#add span {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#nav-all .nav {
+    position: relative;
+}
+
+#nav-all .nav .drp {
+    height: auto;
+    background-color: white;
+    display: none;
+    position: absolute;
+    padding-bottom: 30px;
+}
+
+#nav-all .nav .drp a {
+    margin: 0px 20px;
+}
+
+#nav-all .nav:hover .drp {
+    display: block;
+    transition: 2s;
+}
+
+#nav-all .nav .drp li {
+    margin-top: 10px;
+
+}
+
+.drp li a {
+    font-size: 11px;
+}
+
+.home-dropdown {
+    width: 220px;
+    top: 69px;
+    left: -30px;
+}
+
+.pages-dropdown {
+    width: 180px;
+    top: 69px;
+    left: -30px;
+}
+
+.shop-size {
+    width: 1000px;
+    height: 600px;
+    top: 69px;
+    right: -600px;
+}
+
+.portfolio-dropdown {
+    width: 228px;
+    top: 69px;
+    left: -30px;
+}
+
+.blog-dropdown {
+    width: 160px;
+    top: 69px;
+    left: -30px;
+}
+
+.element-dropdown {
+    width: 210px;
+    top: 69px;
+    left: -30px;
+
+}
+
+#disp-shop {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#disp-shop h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+#disp-shop ul li {
+    margin-top: 30px;
+}
+
+.drp .drp-icon i {
+    margin-left: 20px;
+}
+
+.drp .port-dropdown {
+    position: relative;
+}
+
+.drp .drp-pLayout {
+    width: 210px;
+    height: 200px;
+    background-color: #F3F3F3;
+    position: absolute;
+    left: 218px;
+    top: -10px;
+    display: none;
+    padding: 5px 5px 20px 5px;
+}
+
+.drp .drp-pLayout ul li {
+    margin-bottom: 15px;
+}
+
+.drp .port-drp:hover .drp-pLayout {
+    display: block;
+}
+
+.drp .post-drp {
+    position: relative;
+}
+
+
+.drp .drp-post {
+    width: 200px;
+    height: 220px;
+    background-color: #F3F3F3;
+    position: absolute;
+    left: 160px;
+    top: -10px;
+    display: none;
+    padding: 5px 5px 20px 5px;
+}
+
+.drp-post ul li {
+    margin-bottom: 15px;
+}
+
+.post-drp:hover .drp-post {
+    display: block;
+}
+
+.element-icon span {
+    margin-left: 40px;
+}
+
+.eClass-drp {
+    position: relative;
+}
+
+.drp-class {
+    width: 200px;
+    height: auto;
+    background-color: #F3F3F3;
+    position: absolute;
+    right: 210px;
+    top: -10px;
+    display: none;
+    padding: 5px 5px 10px 5px;
+}
+
+.drp-class ul li {
+    margin-bottom: 10px;
+}
+
+.eClass-drp:hover .drp-class {
+    display: block;
+}
+
+#add #src {
+    position: relative;
+}
+
+#add #src .drp-search {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 72px;
+    right: 5px;
+    display: none;
+}
+
+#add #src div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+}
+
+#add #src:hover .drp-search {
+    display: block;
+}
+
+#src .drp-search input {
+    width: 250px;
+    height: 60px;
+    border: 0;
+    background-color: white;
+    padding: 5px;
+}
+
+#src .drp-search i {
+    position: absolute;
+    right: 25px;
+    top: 14px;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+#src .drp-search i:hover {
+    opacity: 1;
+}
+
+#prof {
+    position: relative;
+}
+
+#add .drp-cart {
+    width: 220px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 69px;
+    left: -80px;
+    display: none;
+}
+
+#add .drp-cart .cart-p {
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    cursor: text;
+}
+
+#add .drp-cart .cart-p p {
+    margin-top: 20px;
+}
+
+#prof:hover .drp-cart {
+    display: block;
+}
+
+#fiorellas {
+    width: 100%;
+    height: 700px;
+    background-image: url('https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
